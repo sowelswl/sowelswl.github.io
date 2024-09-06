@@ -37,8 +37,10 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  # - title: About Me
-  #   url: /
+  - title: About Me
+    url: /
+  - title: 关于我
+    url: /关于我/
   # - title: Publications
   #   url: /publications/
   # - title: Awards
