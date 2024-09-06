@@ -4,13 +4,13 @@ layout: page
 
 # About Me
 
-<img src="https://sowelswl.github.io/images/weilisong.jpg" class="floatpic" width="360" height="480">
+<!-- <img src="https://sowelswl.github.io/images/weilisong.jpg" class="floatpic" width="360" height="480"> -->
 
 Here is **Weili Song (宋伟力)**.
 
 I am a PhD candidate in Management Science and Engineering at Hunan University, specializing in **Financial Risk Management** and **Credit Management**. I hold a Master’s degree in Statistics from the Australian National University and have a background in **Quantitative Strategy Research** from various internships. I have experience in applying **Machine Learning** and **Reinforcement Learning** in financial data analysis, leading to strong performance in real-world trading strategies.
 
-If you are interested in collaborating or discussing anything related to **Financial Risk**, **Machine Learning**, or **Quantitative Strategies**, feel free to reach out to me via email at - *405113793[at]qq[dot]com*.
+If you are interested in collaborating or discussing anything related to **Financial Risk**, **Machine Learning**, or **Quantitative Strategies**, feel free to reach out to me via email at - *weilisong@hnu.edu.cn*.
 
 ## Academic Background
 
