@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://weilisong.com/images/weili.jpg" class="floatpic" width="360" height="480">
+<img src="https://sowelswl.github.io/weilisong.jpg" class="floatpic" width="360" height="480">
 
 Here is **Weili Song (宋伟力)**.
 
