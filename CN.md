@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: /CN/index.html
+title: 关于我
 ---
 
 # 关于我
@@ -44,3 +46,4 @@ layout: page
 - **2022年8月：** 在Kaggle AMEX信用违约预测比赛中获得第50名/4874。
 
 <blockquote class="twitter-tweet"><p lang="zh" dir="ltr">实盘交易表现优异，超额收益19.45%！#量化策略 #金融风险管理</p></blockquote>
+
