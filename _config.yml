@@ -39,8 +39,8 @@ owner:
 links:
   - title: About Me
     url: /
-  - title: 关于我
-    url: /aboutme/
+  - title: CN
+    url: /CN/
   # - title: Publications
   #   url: /publications/
   # - title: Awards
