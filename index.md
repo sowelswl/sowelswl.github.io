@@ -10,7 +10,7 @@ Here is **Weili Song (宋伟力)**.
 
 I am currently a PhD candidate in Management Science and Engineering at Hunan University, focusing on **Quantitative Finance** and **Financial Risk Management**. I am **passionate about quantitative investment research aimed at live trading**, dedicated to closely combining theory with practice and continuously exploring innovative investment strategies.
 
-I also work part-time as a quantitative researcher at a private equity fund, where I have been part of a two-person team that developed a stock index enhancement product from the data stage to full implementation. Since 2022, I have attended over 200 roadshows by private equity funds and regularly engage in offline discussions with industry peers every cycle, giving me a deep understanding of quantitative private equity funds' stock index enhancement products.
+I also work part-time as a quantitative researcher at a private equity fund, where I have been part of a two-person team that developed a stock index enhancement product from the data stage to full implementation. Since 2022, I have attended over 200 roadshows by private equity funds and regularly engage in offline discussions with industry peers, giving me a deep understanding of quantitative private equity funds' stock index enhancement products.
 
 ---
 
