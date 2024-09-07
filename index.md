@@ -35,6 +35,8 @@ In collaboration with my partner at the private equity fund (a team of two), we 
 - Far surpassing the industry average (the average excess return of CSI 500 enhancement products from large-scale quantitative private equity funds over the past year was only <span style="color: red;">**8%**</span>).
 - Achieved an excellent excess Sharpe ratio of <span style="color: red;">**2.398**</span>.
 
+<img src="https://sowelswl.github.io/image/net_value.png" class="floatpic" width="1168" height="492">
+
 Characteristics of our trading strategy:
 
 - Stock selection pool covers the entire market, with an average holding of 300-500 stocks.
