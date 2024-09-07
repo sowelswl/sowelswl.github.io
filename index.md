@@ -36,7 +36,7 @@ In collaboration with my partner at the private equity fund (a team of two), we 
 - Achieved an excellent excess Sharpe ratio of <span style="color: red;">**2.398**</span>.
 
 
-<img src="https://sowelswl.github.io/images/net_value.jpg" class="centerfullpic" width="1860" height="784">
+<img src="https://sowelswl.github.io/images/net_value_eng.jpg" class="centerfullpic" width="1860" height="784">
 
 
 During the quantitative stock market crash in February 2024, our performance:
