@@ -35,7 +35,7 @@ My current research focuses on applying advanced techniques in **Quantitative Fi
 
 ## News and Updates
 
-- **September 2024:** Delivered 21.90% excess return over the CSI 500 Index in live trading for the last 10 months, with an excess Sharpe ratio of 2.398.
+- **September 2024:** Delivered **21.90%** excess return over the CSI 500 Index in live trading for the last 10 months, with an excess Sharpe ratio of **2.398**.
 - **September 2024:** Co-authored a research paper titled "AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors", proposing an innovative two-stage framework for formulaic Alpha generation. [@https://arxiv.org/abs/2406.18394]
 - **May 2024:** Successfully implemented a low-frequency alpha factor extraction using BERT-based sentiment classification, achieving a **10%** excess return on sentiment signals alone.
 - **March 2024:** Introduced a portfolio optimization framework using Gurobi to control risk exposure and enhance small-scale fund performance.
