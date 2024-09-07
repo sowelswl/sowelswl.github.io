@@ -8,7 +8,22 @@ layout: page
 
 Here is **Weili Song (宋伟力)**.
 
-I am a PhD candidate in Management Science and Engineering at Hunan University, specializing in **Quantitative Finance** and **Financial Risk Management**, while also working part-time as a quantitative researcher at a private equity fund. I hold a Master's degree in Statistics from the Australian National University and have accumulated rich experience in **Quantitative Strategy Research** through various work practices. I am passionate about quantitative investment research aimed at **live trading**, dedicated to closely combining theory with practice and continuously exploring innovative investment strategies.
+I am currently a PhD candidate in Management Science and Engineering at Hunan University, focusing on **Quantitative Finance** and **Financial Risk Management**. I am **passionate about quantitative investment research aimed at live trading**, dedicated to closely combining theory with practice and continuously exploring innovative investment strategies.
+
+I also work part-time as a quantitative researcher at a private equity fund, where I have been part of a two-person team that developed a stock index enhancement product from the data stage to full implementation. Since 2022, I have attended over 200 roadshows by private equity funds and regularly engage in offline discussions with industry peers, giving me a deep understanding of quantitative private equity funds' stock index enhancement products.
+
+---
+
+## Collaboration Opportunities
+
+I warmly welcome various external collaboration opportunities, including but not limited to:
+
+- Industry exchange: Sharing experiences and discussing industry trends
+- FOF fund part-time work: Providing expert analysis on quantitative stock selection products
+- Investor cooperation: Able to provide detailed live trading performance
+- Academic collaboration: As a doctoral student, I am also actively seeking academic research collaboration opportunities
+
+If you are interested in any of the above areas, please feel free to contact me via WeChat or email. I am currently based in Beijing and welcome face-to-face meetings.
 
 ---
 
@@ -35,11 +50,13 @@ During the quantitative stock market crash in February 2024, our performance:
 
 ## Research Interests
 
-- Factor Mining
-- Machine Learning in Finance
-- Portfolio Optimization
+My current research focus is in the field of **Quantitative Finance**, dedicated to applying advanced technologies to enhance mid-frequency prediction capabilities and optimize risk management, thereby improving live trading performance. My main research directions include:
 
-My current research focuses on applying advanced techniques in the field of **Quantitative Finance**. I am dedicated to using **Machine Learning** and **Deep Learning** methods for **Factor Mining**, exploring how to extract valuable information from massive financial data. Additionally, I focus on applying these techniques to **Portfolio Optimization** to improve the efficiency and accuracy of investment decisions. My goal is to combine these advanced financial models with real-world data to enhance risk-adjusted returns.
+- **Computational Finance**: Exploring new factor mining methods on price and volume data.
+
+- **Financial Machine Learning**: Researching and applying advanced non-linear models to combine factors, improving the predictive power of signals.
+
+- **Portfolio Management**: Exploring better portfolio optimization methods, including developing more effective optimization algorithms and mining more effective risk factors to achieve superior risk-adjusted returns.
 
 ---
 
