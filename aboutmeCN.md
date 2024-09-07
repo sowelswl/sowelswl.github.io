@@ -38,7 +38,14 @@ title: 关于我
 - 大幅超越行业平均水平（规模上量化私募指数的中证500增强产品在过去一年的平均超额收益仅为<span style="color: red;">**8%**</span>）。
 - 实现了<span style="color: red;">**2.398**</span>的优异超额夏普比率。
 
+
 <img src="https://sowelswl.github.io/images/net_value.jpg" class="centerfullpic" width="1860" height="784">
+
+
+在2024年2月份发生的量化股灾中，我们的表现：
+
+- 最大超额回撤仅为<span style="color: red;">**7%**</span>，（规模上量化私募指数的中证500增强产品在过去一年的平均最大超额回撤高达<span style="color: red;">**11%**</span>）。
+- 仅用<span style="color: red;">**10个交易日**</span>就完成了超额回撤的修复（规模上量化私募指数的中证500增强产品的平均修复时间长达<span style="color: red;">**5个月**</span>）。
 
 我们的交易策略特点：
 
@@ -46,10 +53,7 @@ title: 关于我
 - 采用日间中低频信号，没有日内高频回转交易信号的参与，不属于监管部门重点关注的高频交易范畴。
 - 年化双边换手率约为**30-50**倍，具有较大的资金容量。
 
-在2024年2月份发生的量化股灾中，我们的表现：
 
-- 最大超额回撤仅为<span style="color: red;">**7%**</span>，（规模上量化私募指数的中证500增强产品在过去一年的平均最大超额回撤高达<span style="color: red;">**11%**</span>）。
-- 仅用<span style="color: red;">**10个交易日**</span>就完成了超额回撤的修复（规模上量化私募指数的中证500增强产品的平均修复时间长达<span style="color: red;">**5个月**</span>）。
 
 
 
