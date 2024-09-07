@@ -38,6 +38,8 @@ title: 关于我
 - 大幅超越行业平均水平（规模上量化私募指数的中证500增强产品在过去一年的平均超额收益仅为<span style="color: red;">**8%**</span>）。
 - 实现了<span style="color: red;">**2.398**</span>的优异超额夏普比率。
 
+<img src="https://sowelswl.github.io/image/net_value.png" class="floatpic" width="1168" height="492">
+
 我们的交易策略特点：
 
 - 选股池覆盖全市场，平均持仓数量为300-500只股票。
