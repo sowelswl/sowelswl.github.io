@@ -8,17 +8,28 @@ layout: page
 
 Here is **Weili Song (宋伟力)**.
 
-I am a PhD candidate in Management Science and Engineering at Hunan University, specializing in **Quantitative Finance** and **Financial Risk Management**, while also working part-time as a quantitative researcher at a private equity fund. I hold a Master's degree in Statistics from the Australian National University and have accumulated relevant experience in **Quantitative Strategy Research** through various work experiences. I am passionate about applying **Machine Learning** and **Deep Learning** techniques in financial data prediction tasks, particularly achieving significant results in **Factor Mining** and **Portfolio Optimization**. My research goal is to combine advanced financial models with real-world data to improve risk-adjusted returns and create value for investors.
+I am a PhD candidate in Management Science and Engineering at Hunan University, specializing in **Quantitative Finance** and **Financial Risk Management**, while also working part-time as a quantitative researcher at a private equity fund. I hold a Master's degree in Statistics from the Australian National University and have accumulated rich experience in **Quantitative Strategy Research** through various work practices. I am passionate about quantitative investment research aimed at **live trading**, dedicated to closely combining theory with practice and continuously exploring innovative investment strategies.
 
 ---
 
 ## Live Trading Product
 
-In collaboration with my partner at the private equity fund (a team of two), we dedicated ourselves to researching and developing quantitative stock selection strategies and designing index enhancement products from 2022 to 2023. We officially launched our CSI 500 Index enhancement product for live trading on October 22, 2023. Over the past 10 months of operation, our product has achieved a significant excess return of **21.90%** relative to the CSI 500 Index, far surpassing the industry average. In comparison, the average excess return of CSI 500 enhancement products from large-scale quantitative private equity funds over the past year was only **8%**.
+In collaboration with my partner at the private equity fund (a team of two), we dedicated ourselves to researching quantitative stock selection strategies from 2022 to 2023. We officially launched our CSI 500 Index enhancement product for live trading on October 22, 2023. Over the past 10 months of operation, our product has achieved the following results:
 
-Our trading strategy employs intraday medium to low-frequency signals, with an annualized two-way turnover rate of approximately **30-50** times, effectively avoiding intraday high-frequency round-trip trading and thus not falling under the category of high-frequency trading that is closely monitored by regulatory authorities. Our stock selection pool covers the entire market, with an average holding of 300-500 stocks. Due to our medium to low-frequency strategy and greater flexibility in stock selection, our product has a large capital capacity.
+- A significant excess return of <span style="color: red;">**21.90%**</span> relative to the CSI 500 Index
+- Far surpassing the industry average (the average excess return of CSI 500 enhancement products from large-scale quantitative private equity funds over the past year was only <span style="color: red;">**8%**</span>)
+- Achieved an excellent excess Sharpe ratio of <span style="color: red;">**2.398**</span>
 
-Notably, even during the quantitative stock market crash in February, our maximum excess drawdown was only **7.98%**, and we recovered from the excess drawdown in just **10 trading days**. In contrast, larger quantitative private equity index enhancement products experienced an average maximum excess drawdown of 11% during the same period, with an average recovery time of **5 months**. Overall, our product achieved an excellent excess Sharpe ratio of **2.398**, demonstrating superior risk-adjusted return capability.
+Characteristics of our trading strategy:
+
+- Stock selection pool covers the entire market, with an average holding of 300-500 stocks
+- Employs intraday medium to low-frequency signals, without the participation of intraday high-frequency round-trip trading signals, not falling under the category of high-frequency trading closely monitored by regulatory authorities
+- Annualized two-way turnover rate of approximately **30-50** times, with large capital capacity
+
+During the quantitative stock market crash in February, our performance:
+
+- Maximum excess drawdown was only <span style="color: red;">**7.98%**</span> (the average maximum excess drawdown of CSI 500 enhancement products from large-scale quantitative private equity funds over the past year was as high as <span style="color: red;">**11%**</span>)
+- Recovered from the excess drawdown in just <span style="color: red;">**10 trading days**</span> (the average recovery time for CSI 500 enhancement products from large-scale quantitative private equity funds over the past year was as long as <span style="color: red;">**5 months**</span>)
 
 ---
 
