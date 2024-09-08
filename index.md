@@ -23,7 +23,7 @@ I warmly welcome various external collaboration opportunities, including but not
 - Investor cooperation: Able to provide detailed live trading performance.
 - Academic collaboration: As a doctoral student, I am also actively seeking academic research collaboration opportunities.
 
-If you are interested in any of the above areas, please feel free to contact me via WeChat or email. I am currently based in Beijing and welcome face-to-face meetings.
+If you are interested in any of the above areas, please feel free to contact me via WeChat or email. My email address is weilisong@hnu.edu.cn. I am currently based in Beijing and welcome face-to-face meetings.
 
 ---
 
