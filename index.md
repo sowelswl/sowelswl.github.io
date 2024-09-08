@@ -64,7 +64,7 @@ My current research focus is in the field of **Quantitative Finance**, dedicated
 
 ## News and Updates
 
-- **September 2024:** Co-authored and submitted a research paper titled "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)". This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
+- **August 2024:** Co-authored and submitted a research paper titled "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)". This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
 - **October 2023:** Ranked **88th/2664 (Silver Medal)** in the Kaggle Large Language Model Science Exam competition; Ranked **23rd/2064 (Silver Medal)** in the CommonLit - Evaluate Student Summaries competition.
 - **August 2023:** Introduced a portfolio optimization framework using Gurobi to control risk exposure and enhance small-scale fund performance, increasing annualized excess returns to 20% while keeping drawdowns under 3%.
 - **June 2023:** Conducted research on factor generation and combination, achieving **20%** annualized excess returns and excess drawdowns within **3%** in backtests on the recent 2-year test set. This research laid the foundation for the subsequent "AlphaForge" project.

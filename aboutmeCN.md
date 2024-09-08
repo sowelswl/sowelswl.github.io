@@ -73,7 +73,7 @@ title: 关于我
 
 ## 最新动态
 
-- **2024年9月：** 与合作者共同完成并投稿了题为"[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)"的研究论文。该论文提出了一个创新的两阶段公式化Alpha因子生成框架，为量化投资领域的因子挖掘和动态组合提供了新的方法论。
+- **2024年8月：** 与合作者共同完成并投稿了题为"[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)"的研究论文。该论文提出了一个创新的两阶段公式化Alpha因子生成框架，为量化投资领域的因子挖掘和动态组合提供了新的方法论。
 - **2023年10月：** 在Kaggle大语言模型科学考试比赛中排名**88/2664（银牌）**；CommonLit-评估学生摘要能力大赛排名**23/2064（银牌）**。
 - **2023年8月：** 引入了使用Gurobi的组合优化框架，控制风险敞口并提升小规模基金的表现，将年化超额收益率提升至20%，并将回撤控制在3%以内。
 - **2023年6月：** 对因子生成和因子组合进行研究，对近2年测试集的回测达到了**20%**的年化超额收益率，**3%**以内的超额回撤。这项研究为后续的"AlphaForge"项目奠定了基础。
