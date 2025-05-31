@@ -33,9 +33,9 @@ Since 2022, I have attended over 200 roadshows by private equity funds and regul
 
 I warmly welcome various external collaboration opportunities, including but not limited to:
 
-- Investor cooperation: Real-time live trading performance updates at [Suya Investments](https://www.suyainvestments.com/)
+- Investor cooperation: Real-time live trading performance updates at [Suya Investments](https://www.suyainvestments.com/).
 - Industry exchange: Sharing professional experiences and discussing industry trends.
-- Work opportunities: I am currently seeking work opportunities at private equity funds in Hong Kong
+- Work opportunities: I am currently seeking work or cooperation opportunities at private equity funds in Hong Kong.
 
 If you are interested in any of the above areas, please feel free to contact me via WeChat or email. My email address is weilisong@hnu.edu.cn, and welcome face-to-face meetings.
 
