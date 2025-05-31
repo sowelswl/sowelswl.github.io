@@ -16,8 +16,8 @@ I also work part-time as a quantitative researcher at a private equity fund, whe
 
 ## News and Updates
 
-- **May 2025:** Launched [www.suyainvestments.com](https://www.suyainvestments.com/), a website that provides real-time updates of our live trading performance since October 2023.
-- **December 2024:** Our research paper "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)" was accepted to **AAAI 2025**. [Official AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/33365). This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
+- **May 2025:** Launched [www.suyainvestments.com](https://www.suyainvestments.com/), a website that provides real-time updates of our A-share quantitative trading performance since October 2023.
+- **December 2024:** As co-author, our research paper "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)" was accepted to **AAAI 2025**. [Official AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/33365). This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
 - **October 2023:** Ranked **88th/2664 (Silver Medal)** in the Kaggle Large Language Model Science Exam competition; Ranked **23rd/2064 (Silver Medal)** in the CommonLit - Evaluate Student Summaries competition.
 - **August 2023:** Introduced a portfolio optimization framework using Gurobi to control risk exposure and enhance small-scale fund performance, increasing annualized excess returns to 20% while keeping drawdowns under 3%.
 - **June 2023:** Conducted research on factor generation and combination, achieving **20%** annualized excess returns and excess drawdowns within **3%** in backtests on the recent 2-year test set. This research laid the foundation for the subsequent "AlphaForge" project.
@@ -34,9 +34,8 @@ I warmly welcome various external collaboration opportunities, including but not
 - Industry exchange: Sharing professional experiences and discussing industry trends.
 - FOF fund part-time work: Providing expert analysis on quantitative stock selection products.
 - Investor cooperation: Able to provide detailed live trading performance.
-- Academic collaboration: As a doctoral student, I am also actively seeking academic research collaboration opportunities.
 
-If you are interested in any of the above areas, please feel free to contact me via WeChat or email. My email address is weilisong@hnu.edu.cn. I am currently based in Beijing and welcome face-to-face meetings.
+If you are interested in any of the above areas, please feel free to contact me via WeChat or email. My email address is weilisong@hnu.edu.cn, and welcome face-to-face meetings.
 
 ---
 
@@ -62,6 +61,8 @@ Characteristics of our trading strategy:
 - Stock selection pool covers the entire market, with an average holding of 300-500 stocks.
 - Employs intraday medium to low-frequency signals, without the participation of intraday high-frequency round-trip trading signals, not falling under the category of high-frequency trading closely monitored by regulatory authorities.
 - Annualized two-way turnover rate of approximately **30-50** times, with large capital capacity.
+
+For the latest live trading performance updates, please visit: [www.suyainvestments.com](https://www.suyainvestments.com/)
 
 ---
 
