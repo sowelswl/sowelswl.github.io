@@ -10,7 +10,9 @@ Here is **Weili Song (宋伟力)**.
 
 I am currently a PhD candidate in Management Science and Engineering at Hunan University, focusing on **Quantitative Finance** and **Financial Risk Management**. I am **passionate about quantitative investment research aimed at live trading**, dedicated to closely combining theory with practice and continuously exploring innovative investment strategies.
 
-I also work part-time as a quantitative researcher at a private equity fund, where I have been part of a two-person team that developed a stock index enhancement product from the data stage to full implementation. Since 2022, I have attended over 200 roadshows by private equity funds and regularly engage in offline discussions with industry peers, giving me a deep understanding of quantitative private equity funds' stock index enhancement products.
+I previously worked part-time as a quantitative researcher at a private equity fund, where I was part of a two-person team that developed a stock index enhancement product from the data stage to full implementation. In October 2023, I independently launched live trading, and the current scale has reached tens of millions level.
+
+Since 2022, I have attended over 200 roadshows by private equity funds and regularly engage in offline discussions with industry peers, giving me a deep understanding of quantitative private equity funds' stock index enhancement products.
 
 ---
 
@@ -33,7 +35,7 @@ I warmly welcome various external collaboration opportunities, including but not
 
 - Investor cooperation: Real-time live trading performance updates at [Suya Investments](https://www.suyainvestments.com/)
 - Industry exchange: Sharing professional experiences and discussing industry trends.
-- FOF fund part-time work: Providing expert analysis on quantitative stock selection products.
+- Work opportunities: I am currently seeking work opportunities at private equity funds in Hong Kong
 
 If you are interested in any of the above areas, please feel free to contact me via WeChat or email. My email address is weilisong@hnu.edu.cn, and welcome face-to-face meetings.
 
