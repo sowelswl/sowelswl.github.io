@@ -60,8 +60,6 @@ title: 关于我
 - 最大超额回撤仅为<span style="color: red;">**7%**</span>，（规模上量化私募指数的中证500增强产品在过去一年的平均最大超额回撤高达<span style="color: red;">**11%**</span>）。
 - 仅用<span style="color: red;">**10个交易日**</span>就完成了超额回撤的修复（规模上量化私募指数的中证500增强产品的平均修复时间长达<span style="color: red;">**5个月**</span>）。
 
-如需查看最新的实盘业绩更新，请访问：[苏牙投资](https://www.suyainvestments.com/)
-
 
 我们的交易策略特点：
 
@@ -70,7 +68,7 @@ title: 关于我
 - 年化双边换手率约为**30-50**倍，具有较大的资金容量。
 
 
-
+如需查看最新的实盘业绩更新，请访问：[苏牙投资](https://www.suyainvestments.com/)
 
 
 
