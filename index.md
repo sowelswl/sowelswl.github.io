@@ -56,11 +56,13 @@ During the quantitative stock market crash in February 2024, our performance:
 - Maximum excess drawdown was only <span style="color: red;">**7%**</span>, (the average maximum excess drawdown of CSI 500 enhancement products from large-scale quantitative private equity funds over the past year was as high as <span style="color: red;">**11%**</span>).
 - Recovered from the excess drawdown in just <span style="color: red;">**10 trading days**</span> (the average recovery time for CSI 500 enhancement products from large-scale quantitative private equity funds was as long as <span style="color: red;">**5 months**</span>).
 
+
 Characteristics of our trading strategy:
 
 - Stock selection pool covers the entire market, with an average holding of 300-500 stocks.
 - Employs intraday medium to low-frequency signals, without the participation of intraday high-frequency round-trip trading signals, not falling under the category of high-frequency trading closely monitored by regulatory authorities.
 - Annualized two-way turnover rate of approximately **30-50** times, with large capital capacity.
+
 
 For the latest live trading performance updates, please visit: [Suya Investments](https://www.suyainvestments.com/)
 
