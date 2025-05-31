@@ -18,7 +18,7 @@ title: 关于我
 
 ## 最新动态
 
-- **2025年5月：** 上线了[www.suyainvestments.com](https://www.suyainvestments.com/)，该网站实时更新2023年10月以来A股量化交易的实盘业绩。
+- **2025年5月：** 上线了[苏牙投资](https://www.suyainvestments.com/)，该网站实时更新2023年10月以来A股量化交易的实盘业绩。
 - **2024年12月：** 作为共同作者，研究论文"[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)"被**AAAI 2025**接收。[AAAI官方论文集](https://ojs.aaai.org/index.php/AAAI/article/view/33365)。该论文提出了一个创新的两阶段公式化Alpha因子生成框架，为量化投资领域的因子挖掘和动态组合提供了新的方法论。
 - **2023年10月：** 在Kaggle大语言模型科学考试比赛中排名**88/2664（银牌）**；CommonLit-评估学生摘要能力大赛排名**23/2064（银牌）**。
 - **2023年8月：** 引入了使用Gurobi的组合优化框架，控制风险敞口并提升小规模基金的表现，将年化超额收益率提升至20%，并将回撤控制在3%以内。
@@ -33,9 +33,10 @@ title: 关于我
 
 我热忱欢迎各种外部合作机会，包括但不限于：
 
+- 资方合作：实时实盘业绩更新[苏牙投资](https://www.suyainvestments.com/)
 - 同业交流：分享从业经验，探讨行业趋势。
 - FOF基金兼职：在量化选股产品的尽调上，我能提供最专业的分析。
-- 资方合作：可以提供详细的实盘业绩。
+
 
 如果您对以上任何方面感兴趣，欢迎通过微信或邮件与我联系。我的邮箱是weilisong@hnu.edu.cn，欢迎线下面对面交流。
 
@@ -59,7 +60,7 @@ title: 关于我
 - 最大超额回撤仅为<span style="color: red;">**7%**</span>，（规模上量化私募指数的中证500增强产品在过去一年的平均最大超额回撤高达<span style="color: red;">**11%**</span>）。
 - 仅用<span style="color: red;">**10个交易日**</span>就完成了超额回撤的修复（规模上量化私募指数的中证500增强产品的平均修复时间长达<span style="color: red;">**5个月**</span>）。
 
-如需查看最新的实盘业绩更新，请访问：[www.suyainvestments.com](https://www.suyainvestments.com/)
+如需查看最新的实盘业绩更新，请访问：[苏牙投资](https://www.suyainvestments.com/)
 
 
 我们的交易策略特点：

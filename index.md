@@ -16,7 +16,7 @@ I also work part-time as a quantitative researcher at a private equity fund, whe
 
 ## News and Updates
 
-- **May 2025:** Launched [www.suyainvestments.com](https://www.suyainvestments.com/), a website that provides real-time updates of our A-share quantitative trading performance since October 2023.
+- **May 2025:** Launched [Suya Investments](https://www.suyainvestments.com/), a website that provides real-time updates of our A-share quantitative trading performance since October 2023.
 - **December 2024:** As co-author, our research paper "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)" was accepted to **AAAI 2025**. [Official AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/33365). This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
 - **October 2023:** Ranked **88th/2664 (Silver Medal)** in the Kaggle Large Language Model Science Exam competition; Ranked **23rd/2064 (Silver Medal)** in the CommonLit - Evaluate Student Summaries competition.
 - **August 2023:** Introduced a portfolio optimization framework using Gurobi to control risk exposure and enhance small-scale fund performance, increasing annualized excess returns to 20% while keeping drawdowns under 3%.
@@ -31,9 +31,9 @@ I also work part-time as a quantitative researcher at a private equity fund, whe
 
 I warmly welcome various external collaboration opportunities, including but not limited to:
 
+- Investor cooperation: Real-time live trading performance updates at [Suya Investments](https://www.suyainvestments.com/)
 - Industry exchange: Sharing professional experiences and discussing industry trends.
 - FOF fund part-time work: Providing expert analysis on quantitative stock selection products.
-- Investor cooperation: Able to provide detailed live trading performance.
 
 If you are interested in any of the above areas, please feel free to contact me via WeChat or email. My email address is weilisong@hnu.edu.cn, and welcome face-to-face meetings.
 
@@ -62,7 +62,7 @@ Characteristics of our trading strategy:
 - Employs intraday medium to low-frequency signals, without the participation of intraday high-frequency round-trip trading signals, not falling under the category of high-frequency trading closely monitored by regulatory authorities.
 - Annualized two-way turnover rate of approximately **30-50** times, with large capital capacity.
 
-For the latest live trading performance updates, please visit: [www.suyainvestments.com](https://www.suyainvestments.com/)
+For the latest live trading performance updates, please visit: [Suya Investments](https://www.suyainvestments.com/)
 
 ---
 
