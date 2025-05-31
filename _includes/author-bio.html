@@ -1,4 +1,4 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100"></a>
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100"></a>
 
 <!-- <h4>{{ site.owner.name }}</h4> -->
 
@@ -52,7 +52,7 @@
 {% if site.owner.wechat %}
 <p style="text-indent:0;">
   <a href="https://weilisong.com/images/wechat.jpg" target="_blank">
-    <img src="https://sowelswl.github.io/images/logo/icons8-wechat.png" width="15" height="15">
+    <img src="https://sowelswl.github.io/images/logo/icons8-wechat.png?v={{ site.time | date: '%Y%m%d%H%M%S' }}" width="15" height="15">
     WeChat
   </a>
 </p>
@@ -61,7 +61,7 @@
 {% if site.owner.kaggle %}
 <p style="text-indent:0;">
   <a href="{{ site.owner.kaggle }}" target="_blank">
-    <img src="https://sowelswl.github.io/images/logo/icons8-kaggle.png" width="15" height="15">
+    <img src="https://sowelswl.github.io/images/logo/icons8-kaggle.png?v={{ site.time | date: '%Y%m%d%H%M%S' }}" width="15" height="15">
     Kaggle
   </a>
 </p>
@@ -70,7 +70,7 @@
 {% if site.owner.xueqiu %}
 <p style="text-indent:0;">
   <a href="{{ site.owner.xueqiu }}" target="_blank">
-    <img src="https://sowelswl.github.io/images/logo/icons8-xueqiu.png" width="15" height="16">
+    <img src="https://sowelswl.github.io/images/logo/icons8-xueqiu.png?v={{ site.time | date: '%Y%m%d%H%M%S' }}" width="15" height="16">
     Xueqiu
   </a>
 </p>
