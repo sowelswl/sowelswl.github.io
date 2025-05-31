@@ -14,6 +14,18 @@ I also work part-time as a quantitative researcher at a private equity fund, whe
 
 ---
 
+## News and Updates
+
+- **December 2024:** Our research paper "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)" was accepted to **AAAI 2025**. [Official AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/33365). This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
+- **October 2023:** Ranked **88th/2664 (Silver Medal)** in the Kaggle Large Language Model Science Exam competition; Ranked **23rd/2064 (Silver Medal)** in the CommonLit - Evaluate Student Summaries competition.
+- **August 2023:** Introduced a portfolio optimization framework using Gurobi to control risk exposure and enhance small-scale fund performance, increasing annualized excess returns to 20% while keeping drawdowns under 3%.
+- **June 2023:** Conducted research on factor generation and combination, achieving **20%** annualized excess returns and excess drawdowns within **3%** in backtests on the recent 2-year test set. This research laid the foundation for the subsequent "AlphaForge" project.
+- **April 2023:** Successfully implemented a low-frequency alpha factor extraction using BERT-based sentiment classification, achieving a **10%** excess return on sentiment signals alone.
+- **December 2022:** Placed **6th/532** in the 5th "UBIQUANT CHALLENGE" Quantitative League.
+- **August 2022:** Achieved **50th/4874 (Solo Silver Medal)** in the Kaggle AMEX Credit Default Prediction competition.
+
+---
+
 ## Collaboration Opportunities
 
 I warmly welcome various external collaboration opportunities, including but not limited to:
@@ -59,17 +71,5 @@ My current research focus is in the field of **Quantitative Finance**, dedicated
 - **Computational Finance**: Exploring new factor mining methods on price and volume data.
 - **Financial Machine Learning**: Researching and applying advanced non-linear models to combine factors, improving the predictive power of signals.
 - **Portfolio Management**: Exploring better portfolio optimization methods, including developing more effective optimization algorithms and mining more effective risk factors to achieve superior risk-adjusted returns.
-
----
-
-## News and Updates
-
-- **August 2024:** Co-authored and submitted a research paper titled "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)". This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
-- **October 2023:** Ranked **88th/2664 (Silver Medal)** in the Kaggle Large Language Model Science Exam competition; Ranked **23rd/2064 (Silver Medal)** in the CommonLit - Evaluate Student Summaries competition.
-- **August 2023:** Introduced a portfolio optimization framework using Gurobi to control risk exposure and enhance small-scale fund performance, increasing annualized excess returns to 20% while keeping drawdowns under 3%.
-- **June 2023:** Conducted research on factor generation and combination, achieving **20%** annualized excess returns and excess drawdowns within **3%** in backtests on the recent 2-year test set. This research laid the foundation for the subsequent "AlphaForge" project.
-- **April 2023:** Successfully implemented a low-frequency alpha factor extraction using BERT-based sentiment classification, achieving a **10%** excess return on sentiment signals alone.
-- **December 2022:** Placed **6th/532** in the 5th "UBIQUANT CHALLENGE" Quantitative League.
-- **August 2022:** Achieved **50th/4874 (Solo Silver Medal)** in the Kaggle AMEX Credit Default Prediction competition.
 
 <!-- <blockquote class="twitter-tweet"><p lang="zh" dir="ltr">实盘交易表现优异，超额收益21.90%%！#量化策略 #金融风险管理</p></blockquote> -->
