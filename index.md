@@ -12,7 +12,6 @@ I am currently a PhD candidate in Management Science and Engineering at Hunan Un
 
 I previously worked part-time as a quantitative researcher at a private equity fund, where I was part of a two-person team that developed a stock index enhancement product from the data stage to full implementation. In October 2023, I independently launched live trading, and the current scale has reached tens of millions level.
 
-Since 2022, I have attended over 200 roadshows by private equity funds and regularly engage in offline discussions with industry peers, giving me a deep understanding of quantitative private equity funds' stock index enhancement products.
 
 ---
 
