@@ -16,6 +16,7 @@ I also work part-time as a quantitative researcher at a private equity fund, whe
 
 ## News and Updates
 
+- **May 2025:** Launched [www.suyainvestments.com](https://www.suyainvestments.com/), a website that provides real-time updates of our live trading performance since October 2023.
 - **December 2024:** Our research paper "[AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors](https://arxiv.org/abs/2406.18394)" was accepted to **AAAI 2025**. [Official AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/33365). This paper proposes an innovative two-stage framework for formulaic Alpha factor generation, providing a new methodology for factor mining and dynamic combination in the field of quantitative investment.
 - **October 2023:** Ranked **88th/2664 (Silver Medal)** in the Kaggle Large Language Model Science Exam competition; Ranked **23rd/2064 (Silver Medal)** in the CommonLit - Evaluate Student Summaries competition.
 - **August 2023:** Introduced a portfolio optimization framework using Gurobi to control risk exposure and enhance small-scale fund performance, increasing annualized excess returns to 20% while keeping drawdowns under 3%.
