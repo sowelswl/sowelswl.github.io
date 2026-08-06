@@ -67,4 +67,3 @@ test("sitemap includes the public notes but no legacy routes", async () => {
   assert.match(sitemap, /https:\/\/weilisong\.com\/notes\/ai-workflow\//)
   assert.doesNotMatch(sitemap, /aboutmeCN|\/zh\//)
 })
-
