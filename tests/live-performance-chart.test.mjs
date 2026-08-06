@@ -20,7 +20,7 @@ test("both homepages include an accessible live strategy-versus-benchmark chart"
 
 test("the teaser normalizes observed NAV data into distinct chart paths", async () => {
   const elements = new Map()
-  for (const field of ["annualized-return", "annualized-excess", "max-drawdown", "as-of"]) {
+  for (const field of ["total-return", "total-excess", "max-drawdown", "as-of"]) {
     elements.set(`[data-performance="${field}"]`, {
       textContent: "—",
       setAttribute() {},
@@ -70,8 +70,8 @@ test("the teaser normalizes observed NAV data into distinct chart paths", async 
       async json() {
         return {
           period: { end_date: "2026-01-03" },
-          returns: { formatted: { annualized: "21.00%" } },
-          excess_returns: { formatted: { annualized: "8.00%" } },
+          returns: { formatted: { total: "21.00%" } },
+          excess_returns: { formatted: { total: "8.00%" } },
           risk_metrics: { formatted: { max_drawdown: "9.00%" } },
         }
       },

@@ -27,7 +27,7 @@ test("both homepages distinguish the personal WeChat ID from the official accoun
 test("the contact sections explain how to find Suya Talk in WeChat", async () => {
   const [chinese, english] = await Promise.all([read("index.html"), read("en/index.html")])
 
-  assert.match(chinese, /id="contact"[\s\S]*data-channel="wechat-official-account"[\s\S]*微信公众号[\s\S]*苏牙说[\s\S]*微信内搜索[\s\S]*dasuyatalk/)
+  assert.match(chinese, /id="suya-talk"[\s\S]*data-channel="wechat-official-account"[\s\S]*微信公众号[\s\S]*苏牙说[\s\S]*微信内搜索[\s\S]*dasuyatalk/)
   assert.match(english, /id="contact"[\s\S]*data-channel="wechat-official-account"[\s\S]*WeChat Official Account[\s\S]*苏牙说[\s\S]*search dasuyatalk in WeChat/i)
   assert.doesNotMatch(chinese, /href="[^"]*dasuyatalk/)
   assert.doesNotMatch(english, /href="[^"]*dasuyatalk/)

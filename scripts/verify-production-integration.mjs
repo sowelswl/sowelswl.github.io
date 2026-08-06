@@ -41,8 +41,8 @@ async function fetchJson(fetchImpl, label, url) {
 export async function verifyProductionIntegration(fetchImpl = fetch) {
   const stats = await fetchJson(fetchImpl, "performance stats", endpoints.stats)
   const requiredStats = [
-    stats?.returns?.formatted?.annualized,
-    stats?.excess_returns?.formatted?.annualized,
+    stats?.returns?.formatted?.total,
+    stats?.excess_returns?.formatted?.total,
     stats?.risk_metrics?.formatted?.max_drawdown,
     stats?.period?.end_date,
   ]

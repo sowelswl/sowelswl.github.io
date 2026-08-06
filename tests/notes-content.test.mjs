@@ -15,7 +15,7 @@ test("the homepage turns the expanded profile into a durable notes path", async 
   assert.match(html, /href="\/notes\/quant-to-discretionary\/"/)
   assert.match(html, /href="\/notes\/ai-workflow\/"/)
   assert.match(html, /href="\/notes\/"/)
-  assert.ok(html.indexOf('id="notes"') < html.indexOf('id="performance"'))
+  assert.ok(html.indexOf('id="performance"') < html.indexOf('id="notes"'))
 })
 
 test("the notes archive exposes dated, authored, canonical articles", async () => {

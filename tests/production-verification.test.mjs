@@ -21,8 +21,8 @@ test("production verification accepts privacy-safe live responses", async () => 
     requests.push({ url, options })
     if (url.includes("/stats")) {
       return response({
-        returns: { formatted: { annualized: "10.0%" } },
-        excess_returns: { formatted: { annualized: "2.0%" } },
+        returns: { formatted: { total: "10.0%" } },
+        excess_returns: { formatted: { total: "2.0%" } },
         risk_metrics: { formatted: { max_drawdown: "-8.0%" } },
         period: { end_date: "2026-08-05" },
       })
@@ -54,8 +54,8 @@ test("production verification rejects identity fields in browser-visible data", 
   const fetchMock = async (url) => {
     if (url.includes("/stats")) {
       return response({
-        returns: { formatted: { annualized: "10.0%" } },
-        excess_returns: { formatted: { annualized: "2.0%" } },
+        returns: { formatted: { total: "10.0%" } },
+        excess_returns: { formatted: { total: "2.0%" } },
         risk_metrics: { formatted: { max_drawdown: "-8.0%" } },
         period: { end_date: "2026-08-05" },
       })
