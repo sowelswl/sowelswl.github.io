@@ -10,7 +10,7 @@ The site helps a visitor understand three things quickly:
 
 1. Who Weili is, how the Suya brand is organized, and how subjective research and quantitative systems work together.
 2. Where to follow Suya Talk, the primary public-content and reader-relationship channel.
-3. Where to inspect evidence, including the proprietary portfolio record, AlphaForge, and the forthcoming public timing ledger.
+3. Where to inspect evidence, including the proprietary portfolio record, AlphaForge, and the [public timing ledger](https://github.com/sowelswl/suya-market-regime-ledger).
 4. How qualified traders and researchers can apply for lightweight research exchange.
 
 The Chinese edition at `/` is the canonical, full homepage. The English edition at `/en/` is intentionally concise. Research-exchange and private-research information live at `/connect/research/` and `/connect/private-research/`. Historical results are evidence, not investment advice, fundraising, managed-money solicitation, or a promise of future performance.

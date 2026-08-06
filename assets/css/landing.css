@@ -178,6 +178,14 @@
   letter-spacing: 0.12em;
 }
 
+.evidence-coming a {
+  color: var(--forest);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(31, 114, 88, 0.35);
+  text-underline-offset: 3px;
+}
+
 .suya-talk {
   padding-top: 120px;
   padding-bottom: 120px;
