@@ -27,6 +27,22 @@ test("repository guidance matches the current personal positioning", async () =>
   assert.match(operations, /季度研究|quarterly/i)
 })
 
+test("current positioning invites peer exchange without employment framing", async () => {
+  const [chinese, english, research, operations] = await Promise.all([
+    read("index.html"),
+    read("en/index.html"),
+    read("connect/research/index.html"),
+    read("CONTENT_OPERATIONS.md"),
+  ])
+
+  assert.match(chinese, /有真实交易或研究经验、愿意进行浅合作与持续交流的人/)
+  assert.match(english, /lightweight, sustained exchange with traders and researchers/)
+  assert.doesNotMatch(chinese, /不寻求工作|工作机会|求职/)
+  assert.doesNotMatch(english, /seeking employment|job opportunit|recruit/i)
+  assert.doesNotMatch(research, /求职|工作机会/)
+  assert.doesNotMatch(operations, /recruiter|employment|job opportunit/i)
+})
+
 test("search engines receive canonical public routes", async () => {
   const [robots, sitemap] = await Promise.all([
     read("robots.txt"),

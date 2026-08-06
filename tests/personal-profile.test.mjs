@@ -15,6 +15,8 @@ test("the first two sections provide a thirty-second personal profile", () => {
   assert.match(hero, /量化与主观结合的自营交易者/)
   assert.match(profile, /3年私募从业经验/)
   assert.match(profile, /独立管理自营资金/)
+  assert.match(profile, /我是宋伟力，湖南大学博士，拥有3年私募从业经验/)
+  assert.doesNotMatch(profile, /我是宋伟力，湖南大学管理科学与工程博士研究生/)
   assert.match(profile, /苏牙/)
   assert.doesNotMatch(profile, /weilisong@hnu\.edu\.cn/)
   assert.match(contact, /weilisong@hnu\.edu\.cn/)

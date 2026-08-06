@@ -2,7 +2,7 @@
 
 ## Positioning
 
-Primary audience: professional investors, research collaborators, quantitative or AI teams, and specialist recruiters.
+Primary audience: professional investors, research collaborators, and quantitative or AI teams.
 
 Core identity: **宋伟力是一名主观交易者与量化研究者，用系统化方法训练判断，用 AI 和 LLM 扩展研究能力。**
 
