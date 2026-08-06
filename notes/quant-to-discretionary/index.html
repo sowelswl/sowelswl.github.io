@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>为什么我从个人量化转向主观交易 + LLM — 宋伟力</title>
+  <meta name="description" content="宋伟力回顾个人量化实盘阶段，以及将当前主线转向A股主观交易与AI辅助决策的原因。">
+  <meta name="theme-color" content="#0b2520">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="为什么我从个人量化转向主观交易 + LLM">
+  <meta property="og:description" content="这不是对量化的否定，而是一次基于实盘经验的角色重排。">
+  <meta property="og:url" content="https://weilisong.com/notes/quant-to-discretionary/">
+  <meta property="og:image" content="https://weilisong.com/images/social/og-quant-to-discretionary.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="为什么我从个人量化转向主观交易加 LLM">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="为什么我从个人量化转向主观交易 + LLM">
+  <meta name="twitter:description" content="这不是对量化的否定，而是一次基于实盘经验的角色重排。">
+  <meta name="twitter:image" content="https://weilisong.com/images/social/og-quant-to-discretionary.png">
+  <meta property="article:published_time" content="2026-08-06">
+  <meta property="article:author" content="宋伟力">
+  <link rel="canonical" href="https://weilisong.com/notes/quant-to-discretionary/">
+  <link rel="alternate" type="application/atom+xml" title="宋伟力的文章与复盘" href="https://weilisong.com/feed.xml">
+  <link rel="icon" href="/images/fav.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/landing.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "为什么我从个人量化转向主观交易 + LLM",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "image": "https://weilisong.com/images/social/og-quant-to-discretionary.png",
+    "author": {"@type": "Person", "name": "宋伟力", "url": "https://weilisong.com/"},
+    "mainEntityOfPage": "https://weilisong.com/notes/quant-to-discretionary/"
+  }
+  </script>
+</head>
+<body class="note-page">
+  <a class="skip-link" href="#article-content">跳到文章正文</a>
+
+  <header class="site-header note-site-header">
+    <a class="wordmark" href="/" aria-label="返回宋伟力个人主页">
+      <span class="wordmark-mark" aria-hidden="true">WS</span>
+      <span>宋伟力</span>
+    </a>
+    <nav class="primary-nav" aria-label="文章导航">
+      <a href="/">个人主页</a>
+      <a href="/notes/">文章与复盘</a>
+      <a href="https://www.suyainvestments.com/?utm_source=weilisong.com&amp;utm_medium=referral&amp;utm_campaign=trading_note">实盘报告</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-cta" href="/notes/">全部文章 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <article data-note-author="宋伟力">
+      <header class="note-hero section-shell">
+        <a class="note-back" href="/notes/">← 文章与复盘</a>
+        <p class="eyebrow">Trading review · 01</p>
+        <h1>为什么我从个人量化转向主观交易 + LLM</h1>
+        <p class="note-deck">这不是一篇宣告量化失效的文章。它记录的是：当实盘经验改变了我的判断后，我如何重新安排人、模型与 AI 的角色。</p>
+        <div class="note-byline">
+          <span>宋伟力</span>
+          <time datetime="2026-08-06">2026 年 8 月 6 日</time>
+          <span>约 6 分钟阅读</span>
+        </div>
+      </header>
+
+      <div class="note-layout section-shell">
+        <aside class="note-toc" aria-label="文章目录">
+          <p>文章目录</p>
+          <a href="#quant-era">01 量化阶段</a>
+          <a href="#pivot">02 转向发生</a>
+          <a href="#llm">03 LLM 的变量</a>
+          <a href="#allocation">04 当前配置</a>
+          <a href="#unchanged">05 没有改变的事</a>
+        </aside>
+
+        <div id="article-content" class="note-body">
+          <p class="note-lead">从 2023 年到 2025 年 11 月，我的主要工作围绕量化交易展开：构建中证 500 增强策略、完成实盘流程，并持续处理研究、数据与执行之间的落差。到 2025 年末，我把当前主线转向了<strong>主观交易 + AI 辅助</strong>，量化则从唯一主线变成支撑判断的方法。</p>
+
+          <section id="quant-era">
+            <span class="note-section-index">01</span>
+            <h2>量化阶段给了我什么</h2>
+            <p>量化训练最重要的价值，不只是写出一个策略。它逼迫我定义问题、保存证据、区分样本内与样本外，并把收益和风险放在同一个评价框架里。真实运行又进一步暴露了研究代码、交易成本、执行偏差与心理压力之间的距离。</p>
+            <p>这些训练后来都留在了我的主观交易里：我仍然要求自己明确假设、限制仓位、记录决策，并在事后回看“当时为什么这样判断”。</p>
+          </section>
+
+          <blockquote class="note-pullquote">转向不是把系统丢掉，而是让系统服务于判断。</blockquote>
+
+          <section id="pivot">
+            <span class="note-section-index">02</span>
+            <h2>实盘改变了我的判断</h2>
+            <p>促成转向的直接原因很朴素：我的经验判断是，<strong>个人量化难以持续跑赢主观交易</strong>。这里谈的是我在自身资源、研究边界与市场环境下得到的结论，不是对所有量化策略或所有人的普遍判断。</p>
+            <p>与此同时，我开始更清楚地看到主观交易的优势：人可以在不完整信息下调整权重，可以识别市场叙事、价格行为与拥挤度之间的变化，也可以在模型尚未形成时先管理风险。</p>
+            <div class="note-callout">
+              <p>关键限定</p>
+              <strong>这不是否定量化。</strong>
+              <span>量化仍然是验证直觉、组织数据、约束风险和复盘决策的重要工具。</span>
+            </div>
+          </section>
+
+          <section id="llm">
+            <span class="note-section-index">03</span>
+            <h2>LLM 改变了个人研究者的能力边界</h2>
+            <p>转向发生的另一个原因，是我看到了 LLM 在交易研究里的潜力。它不能替代最终决策，也不应该替人承担风险，但它可以帮助个人研究者更快地整理信息、比较观点、搭建研究工具，并把大量重复性的工作交给 Agent 系统。</p>
+            <p>我希望形成的不是“让 AI 给出股票答案”，而是一个更完整的决策支持系统：人负责目标、判断与责任，AI 扩展信息处理和研究自动化，量化方法负责结构化检验。</p>
+          </section>
+
+          <section id="allocation">
+            <span class="note-section-index">04</span>
+            <h2>2026 年的精力配置：80 / 20</h2>
+            <div class="note-allocation" aria-label="2026年第二季度精力配置">
+              <div>
+                <strong>80%</strong>
+                <span>主观交易 + AI 辅助</span>
+              </div>
+              <div>
+                <strong>20%</strong>
+                <span>量化研究</span>
+              </div>
+              <div>
+                <strong>0%</strong>
+                <span>宏观与其他市场</span>
+              </div>
+            </div>
+            <p>这是 2026 年第二季度的阶段性配置，不是永久宣言。当前最重要的是把 A 股主观交易与 AI 决策支持做深；在 2027 年以前，我不准备主动扩展宏观研究和其他市场。</p>
+            <p>对商品、可转债、海外权益和宏观框架的探索计划放在 2027—2028 年，并以当前体系是否成熟为前提。</p>
+          </section>
+
+          <section id="unchanged">
+            <span class="note-section-index">05</span>
+            <h2>变化的是主线，不变的是纪律</h2>
+            <p>交易方法可以变化，但几件事不应该变化：尊重能力圈、控制无法承受的损失、保留可复盘的证据，以及对自己不知道什么保持诚实。</p>
+            <p>我更愿意把这次转向理解为一次角色重排：主观判断站到前台，量化研究负责检验和约束，LLM 与 Agent 系统扩展研究半径。它们不是彼此替代的口号，而是一套仍在真实实践中迭代的工作方式。</p>
+          </section>
+
+          <div class="note-disclaimer">
+            <strong>风险说明</strong>
+            <p>本文仅记录个人经历、研究过程与阶段性判断，不构成投资建议，也不代表或保证任何未来表现。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <nav class="note-footer-nav section-shell" aria-label="相关文章">
+      <span>继续阅读</span>
+      <a href="/notes/ai-workflow/">
+        <small>下一篇 · AI 工作流</small>
+        <strong>从 GPT-3 Completion 到 Agentic Coding</strong>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div><a class="wordmark wordmark-footer" href="/"><span class="wordmark-mark" aria-hidden="true">WS</span><span>宋伟力</span></a><p>主观交易、AI辅助决策与量化研究。</p></div>
+    <div class="footer-note"><p>文章仅记录个人研究与实践，不构成投资建议。</p><p>© 2026 宋伟力</p></div>
+  </footer>
+</body>
+</html>

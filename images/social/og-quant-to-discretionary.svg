@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#10201c" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.1" cy="0.1" r="1">
+      <stop offset="0" stop-color="#2f7d63" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#0b2520" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="410" height="630" fill="#0b2520"/>
+  <rect width="410" height="630" fill="url(#glow)"/>
+  <circle cx="66" cy="62" r="26" fill="#f3f0e8"/>
+  <text x="66" y="70" fill="#0b2520" font-family="Georgia, serif" font-size="17" text-anchor="middle">WS</text>
+  <text x="108" y="69" fill="#c2d6cd" font-family="Arial, sans-serif" font-size="14" font-weight="600">宋伟力 · 交易复盘</text>
+  <text x="58" y="188" fill="#8ab7a3" font-family="Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3">2026 FOCUS</text>
+  <text x="52" y="305" fill="#fffdf8" font-family="Georgia, serif" font-size="102">80</text>
+  <text x="201" y="305" fill="#8ab7a3" font-family="Georgia, serif" font-size="43">/</text>
+  <text x="245" y="305" fill="#fffdf8" font-family="Georgia, serif" font-size="74">20</text>
+  <rect x="58" y="360" width="290" height="10" rx="5" fill="#345046"/>
+  <rect x="58" y="360" width="232" height="10" rx="5" fill="#78ad96"/>
+  <text x="58" y="411" fill="#b5c9c0" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="18">主观交易 + AI 辅助</text>
+  <text x="58" y="445" fill="#91a69d" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="18">量化研究作为检验与约束</text>
+  <line x1="58" y1="520" x2="348" y2="520" stroke="#fffdf8" stroke-opacity="0.18"/>
+  <text x="58" y="559" fill="#b5c9c0" font-family="Arial, sans-serif" font-size="15">weilisong.com</text>
+
+  <text x="480" y="100" fill="#1f7258" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">TRADING REVIEW · 01</text>
+  <text x="476" y="208" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="62">为什么我从个人量化</text>
+  <text x="476" y="290" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="62">转向主观交易 + LLM</text>
+  <text x="480" y="374" fill="#4f5e56" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="22">这不是对量化的否定，</text>
+  <text x="480" y="413" fill="#4f5e56" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="22">而是一次基于实盘经验的角色重排。</text>
+  <line x1="480" y1="510" x2="1138" y2="510" stroke="#10201c" stroke-opacity="0.2"/>
+  <text x="480" y="554" fill="#68736d" font-family="Arial, sans-serif" font-size="15">2026.08.06 · WEILI SONG</text>
+  <text x="1138" y="554" fill="#10201c" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="end">READ THE FULL NOTE ↗</text>
+</svg>

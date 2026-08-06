@@ -1,6 +1,5 @@
 title: Weili Song
-# tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.
-# description: Two roads diverged in woods, I took the one less traveled by.
+description: 宋伟力的个人主页，记录主观交易、LLM辅助决策、量化研究与实盘档案。
 #Comment out url when working locally to resolve base urls correctly
 url: https://weilisong.com
 
@@ -8,25 +7,12 @@ url: https://weilisong.com
 # Owner/author information
 owner:
   name: Weili Song
-  avatar: logo.jpg
-  # bio: Two roads diverged in woods, I took the one less traveled by.
+  avatar: weili.jpg
   email: weilisong@hnu.edu.cn
-  # cv: https://weilisong.com/file/CV-Weilisong20240627.pdf
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  # twitter: lancecai2002
   github: sowelswl
   linkedin: weili-song-414a43288
-  # scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
-  # bilibili: 594030035
-  # researchgate: https://www.researchgate.net/profile/Hanlin-Cai
   zhihu: https://www.zhihu.com/people/song-wei-li-54
   zhihu_username: 大苏牙
-  # facebook: caihanlin2002
-  # instagram: lancecai2002
-  # lastfm:
-  # tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:
   wechat: wechat.jpg
   kaggle: https://www.kaggle.com/abel4260
   xueqiu: https://xueqiu.com/u/3404936887
@@ -41,20 +27,10 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About Me
-    url: /
   - title: 关于我
-    url: /aboutmeCN/
-  # - title: Publications
-  #   url: /publications/
-  # - title: Awards
-  #   url: /awards/
-  # - title: Hobbies
-  #   url: /hobbies/
-  # - title: Blogs
-  #   url: /blogs/
-  # - title: Teams
-  #   url: /teams/
+    url: /
+  - title: English
+    url: /en/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
@@ -89,6 +65,30 @@ disqus:
   shortname: waynesong
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-# Latest update in 2023/12/10 by Hanlin Cai.
+exclude:
+  - _config_bak.yml
+  - backup
+  - blogs
+  - mypaper
+  - awards.md
+  - blogs.md
+  - hobbies.md
+  - publications.md
+  - teams.md
+  - file/404.md
+  - file/CV-HanlinCAI.pdf
+  - file/CV-IoE.pdf
+  - file/awards-zh.md
+  - file/publications-zh.md
+  - file/proposal-2023.pdf
+  - lib
+  - config.rb
+  - Capfile
+  - config
+  - log
+  - Rakefile
+  - Rakefile.rb
+  - tmp
+  - less
+  - minimal-mistakes.sublime-project
+  - minimal-mistakes.sublime-workspace

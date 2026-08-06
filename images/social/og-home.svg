@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#10201c" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="forest" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2520"/>
+      <stop offset="1" stop-color="#173b32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="390" height="630" fill="url(#forest)"/>
+  <circle cx="88" cy="78" r="34" fill="#f3f0e8"/>
+  <text x="88" y="87" fill="#0b2520" font-family="Georgia, serif" font-size="23" text-anchor="middle">WS</text>
+  <text x="62" y="188" fill="#78ad96" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">PERSONAL PROFILE</text>
+  <text x="62" y="278" fill="#fffdf8" font-family="STSong, Songti SC, serif" font-size="86">宋伟力</text>
+  <text x="62" y="326" fill="#b8cec5" font-family="Arial, sans-serif" font-size="24">WEILI SONG</text>
+  <line x1="62" y1="428" x2="328" y2="428" stroke="#6ca38c" stroke-opacity="0.6"/>
+  <text x="62" y="473" fill="#a9beb5" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="19">湖南大学博士研究生</text>
+  <text x="62" y="507" fill="#a9beb5" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="19">3 年私募从业经验</text>
+
+  <text x="468" y="110" fill="#1f7258" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">TRADING · RESEARCH · AI</text>
+  <text x="464" y="245" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="78">主观交易者</text>
+  <text x="464" y="343" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="78">量化研究者</text>
+  <text x="468" y="411" fill="#4f5e56" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="24">用系统化方法训练判断，</text>
+  <text x="468" y="450" fill="#4f5e56" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="24">用 AI 扩展研究能力。</text>
+  <line x1="468" y1="528" x2="1128" y2="528" stroke="#10201c" stroke-opacity="0.2"/>
+  <text x="468" y="572" fill="#10201c" font-family="Arial, sans-serif" font-size="17" font-weight="600">weilisong.com</text>
+  <text x="1128" y="572" fill="#68736d" font-family="Arial, sans-serif" font-size="14" text-anchor="end">PERSONAL INVESTMENT &amp; RESEARCH</text>
+</svg>

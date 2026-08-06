@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#10201c" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="aiGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f7258"/>
+      <stop offset="1" stop-color="#0b2520"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1080" cy="88" r="210" fill="url(#aiGlow)"/>
+  <text x="1080" y="138" fill="#fffdf8" font-family="Georgia, serif" font-size="132" text-anchor="middle">AI</text>
+  <circle cx="64" cy="60" r="26" fill="#0b2520"/>
+  <text x="64" y="68" fill="#fffdf8" font-family="Georgia, serif" font-size="17" text-anchor="middle">WS</text>
+  <text x="106" y="67" fill="#10201c" font-family="Arial, sans-serif" font-size="14" font-weight="600">宋伟力 · AI 工作流</text>
+  <text x="58" y="145" fill="#1f7258" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">AI WORKFLOW · 02</text>
+  <text x="54" y="259" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="65">从 GPT-3 Completion 到</text>
+  <text x="54" y="341" fill="#10201c" font-family="Georgia, STSong, serif" font-size="69">Agentic Coding</text>
+  <text x="58" y="406" fill="#4f5e56" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="21">一条持续四年的 AI 协作路径</text>
+
+  <g transform="translate(58 476)" font-family="Arial, sans-serif">
+    <rect width="205" height="70" rx="14" fill="#fffdf8" stroke="#10201c" stroke-opacity="0.18"/>
+    <text x="18" y="28" fill="#1f7258" font-size="11" font-weight="600">2022 H2</text>
+    <text x="18" y="51" fill="#10201c" font-size="16">GPT-3 Completion</text>
+    <text x="222" y="42" fill="#1f7258" font-size="22">→</text>
+    <rect x="255" width="205" height="70" rx="14" fill="#fffdf8" stroke="#10201c" stroke-opacity="0.18"/>
+    <text x="273" y="28" fill="#1f7258" font-size="11" font-weight="600">2022—2024</text>
+    <text x="273" y="51" fill="#10201c" font-size="16">Claude + GPT Chat</text>
+    <text x="477" y="42" fill="#1f7258" font-size="22">→</text>
+    <rect x="510" width="168" height="70" rx="14" fill="#fffdf8" stroke="#10201c" stroke-opacity="0.18"/>
+    <text x="528" y="28" fill="#1f7258" font-size="11" font-weight="600">2024</text>
+    <text x="528" y="51" fill="#10201c" font-size="16">Cursor</text>
+    <text x="695" y="42" fill="#1f7258" font-size="22">→</text>
+    <rect x="728" width="350" height="70" rx="14" fill="#0b2520"/>
+    <text x="746" y="28" fill="#8ab7a3" font-size="11" font-weight="600">2025 H2—NOW</text>
+    <text x="746" y="51" fill="#fffdf8" font-size="16">Claude Code · Codex · Agents</text>
+  </g>
+  <text x="1140" y="596" fill="#68736d" font-family="Arial, sans-serif" font-size="14" text-anchor="end">weilisong.com</text>
+</svg>
