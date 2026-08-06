@@ -16,6 +16,7 @@ test("the homepage uses the settled Suya brand architecture", async () => {
   assert.match(html, /苏牙投资/)
   assert.match(html, /宋伟力/)
   assert.match(html, /个人自营研究与历史记录/)
+  assert.match(html, /https:\/\/github\.com\/sowelswl\/suya-market-regime-ledger/)
 })
 
 test("AI supports the method without becoming a competing homepage identity", async () => {
