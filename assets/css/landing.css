@@ -1899,3 +1899,737 @@ button:focus-visible {
     padding: 28px;
   }
 }
+
+/* Editorial notes */
+.notes {
+  padding-top: 128px;
+  padding-bottom: 132px;
+}
+
+.notes-heading-copy {
+  max-width: 440px;
+}
+
+.notes-heading-copy p {
+  margin: 0 0 24px;
+  color: #59665f;
+}
+
+.notes-heading-copy .text-link {
+  display: inline-block;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 14px;
+}
+
+.note-card {
+  display: flex;
+  min-height: 430px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 36px;
+  background: rgba(255, 253, 248, 0.7);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+}
+
+.note-card-featured {
+  color: var(--white);
+  background:
+    radial-gradient(circle at 84% 12%, rgba(108, 183, 150, 0.2), transparent 32%),
+    var(--forest);
+  border-color: transparent;
+}
+
+.note-card-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #75817b;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.note-card-featured .note-card-meta {
+  color: #9bb5aa;
+}
+
+.note-card h3 {
+  max-width: 720px;
+  margin: 60px 0 22px;
+  font-family: var(--serif);
+  font-size: clamp(37px, 4.5vw, 66px);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+}
+
+.note-card:not(.note-card-featured) h3 {
+  font-size: clamp(33px, 3.2vw, 46px);
+}
+
+.note-card h3 a:hover {
+  color: #68a98d;
+}
+
+.note-card p {
+  max-width: 650px;
+  margin: 0;
+  color: #627069;
+  font-size: 14px;
+}
+
+.note-card-featured p {
+  color: #aec1b9;
+}
+
+.note-card-link {
+  width: fit-content;
+  margin-top: 38px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid currentColor;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.notes-page,
+.note-page {
+  background-color: var(--paper);
+}
+
+.note-site-header .primary-nav {
+  gap: 34px;
+}
+
+.notes-archive-hero {
+  padding-top: 132px;
+  padding-bottom: 104px;
+}
+
+.notes-archive-hero h1,
+.note-hero h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  line-height: 0.92;
+}
+
+.notes-archive-hero h1 {
+  font-size: clamp(70px, 11vw, 154px);
+}
+
+.notes-archive-hero > p:not(.eyebrow) {
+  max-width: 690px;
+  margin: 36px 0 0;
+  color: #536159;
+  font-family: var(--serif);
+  font-size: clamp(23px, 2.5vw, 34px);
+  line-height: 1.35;
+}
+
+.archive-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 40px;
+  margin-top: 70px;
+  padding-top: 20px;
+  color: #68766f;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.notes-archive {
+  padding-bottom: 140px;
+}
+
+.archive-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.archive-heading h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.archive-heading span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.archive-entry {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr) auto;
+  gap: 36px;
+  align-items: start;
+  padding: 46px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.archive-entry-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.archive-entry h3 {
+  max-width: 760px;
+  margin: 0 0 14px;
+  font-family: var(--serif);
+  font-size: clamp(30px, 4vw, 52px);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+}
+
+.archive-entry h3 a:hover {
+  color: var(--emerald);
+}
+
+.archive-entry p {
+  max-width: 650px;
+  margin: 0;
+  color: #5f6c65;
+  font-size: 14px;
+}
+
+.archive-entry-arrow {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  place-items: center;
+  transition: color 160ms ease, background 160ms ease;
+}
+
+.archive-entry-arrow:hover {
+  color: var(--white);
+  background: var(--forest);
+}
+
+.note-hero {
+  max-width: 1040px;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.note-back {
+  display: inline-block;
+  margin-bottom: 72px;
+  color: #607069;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.note-hero h1 {
+  max-width: 980px;
+  font-size: clamp(58px, 7vw, 92px);
+}
+
+.note-hero-ai h1 {
+  font-size: clamp(56px, 6.6vw, 86px);
+}
+
+.note-deck {
+  max-width: 760px;
+  margin: 42px 0 0;
+  color: #4f5e56;
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 31px);
+  line-height: 1.42;
+}
+
+.note-byline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  margin-top: 58px;
+  padding-top: 22px;
+  color: #64726b;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+
+.note-layout {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 760px);
+  gap: clamp(50px, 8vw, 120px);
+  justify-content: center;
+  align-items: start;
+  padding-bottom: 130px;
+}
+
+.note-toc {
+  position: sticky;
+  top: 116px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.note-toc p {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.note-toc a {
+  color: #748079;
+  font-size: 11px;
+}
+
+.note-toc a:hover {
+  color: var(--emerald);
+}
+
+.note-body {
+  min-width: 0;
+  color: #283630;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.82;
+}
+
+.note-body section {
+  padding-top: 44px;
+  scroll-margin-top: 100px;
+}
+
+.note-body p {
+  margin: 0 0 28px;
+}
+
+.note-body strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.note-body em {
+  font-style: italic;
+}
+
+.note-lead {
+  margin-bottom: 56px !important;
+  color: var(--ink);
+  font-size: 26px;
+  line-height: 1.62;
+}
+
+.note-section-index {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--emerald);
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.note-body h2 {
+  margin: 0 0 30px;
+  color: var(--ink);
+  font-size: clamp(38px, 4.4vw, 55px);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+}
+
+.note-pullquote {
+  margin: 56px 0 30px;
+  padding: 34px 0 32px 34px;
+  color: var(--forest);
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  border-left: 4px solid var(--emerald);
+  font-size: clamp(30px, 4vw, 47px);
+  line-height: 1.18;
+}
+
+.note-callout {
+  margin: 42px 0;
+  padding: 30px;
+  background: #e5e2d8;
+  border-radius: 18px;
+  font-family: var(--sans);
+}
+
+.note-callout p {
+  margin: 0 0 26px;
+  color: var(--emerald);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.note-callout strong,
+.note-callout span {
+  display: block;
+}
+
+.note-callout strong {
+  margin-bottom: 10px;
+  font-family: var(--serif);
+  font-size: 31px;
+  line-height: 1.15;
+}
+
+.note-callout span {
+  color: #536159;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.note-callout-dark {
+  color: var(--white);
+  background: var(--forest);
+}
+
+.note-callout-dark strong {
+  color: var(--white);
+}
+
+.note-callout-dark span {
+  color: #b2c5bd;
+}
+
+.note-allocation {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin: 40px 0;
+  color: var(--white);
+  background: var(--forest);
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: var(--sans);
+}
+
+.note-allocation div {
+  display: flex;
+  min-height: 180px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.note-allocation div + div {
+  border-left: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.note-allocation strong {
+  color: var(--white);
+  font-family: var(--serif);
+  font-size: 52px;
+  line-height: 1;
+}
+
+.note-allocation span {
+  color: #acc1b8;
+  font-size: 11px;
+}
+
+.note-stack {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 40px 0;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  font-family: var(--sans);
+}
+
+.note-stack div {
+  padding: 23px;
+  background: var(--white);
+}
+
+.note-stack span,
+.note-stack strong {
+  display: block;
+}
+
+.note-stack span {
+  margin-bottom: 24px;
+  color: var(--emerald);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.note-stack strong {
+  font-size: 18px;
+}
+
+.note-stack p {
+  margin: 10px 0 0;
+  color: #647069;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.note-disclaimer {
+  margin-top: 74px;
+  padding-top: 24px;
+  color: #65726c;
+  border-top: 1px solid var(--line);
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.note-disclaimer strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.note-disclaimer p {
+  margin: 0;
+}
+
+.note-disclaimer a {
+  border-bottom: 1px solid currentColor;
+}
+
+.note-footer-nav {
+  padding-top: 40px;
+  padding-bottom: 110px;
+  border-top: 1px solid var(--ink);
+}
+
+.note-footer-nav > span {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.note-footer-nav a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 30px;
+  align-items: end;
+}
+
+.note-footer-nav small {
+  grid-column: 1;
+  color: var(--emerald);
+  font-size: 11px;
+}
+
+.note-footer-nav strong {
+  grid-column: 1;
+  max-width: 900px;
+  font-family: var(--serif);
+  font-size: clamp(34px, 5vw, 64px);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+}
+
+.note-footer-nav a > span {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-size: 32px;
+}
+
+@media (max-width: 980px) {
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .note-card {
+    min-height: 360px;
+  }
+
+  .note-layout {
+    grid-template-columns: minmax(0, 760px);
+  }
+
+  .note-toc {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .notes {
+    padding-top: 88px;
+    padding-bottom: 90px;
+  }
+
+  .notes-grid {
+    gap: 10px;
+  }
+
+  .note-card {
+    min-height: 350px;
+    padding: 26px;
+  }
+
+  .note-card h3,
+  .note-card:not(.note-card-featured) h3 {
+    margin-top: 46px;
+    font-size: 36px;
+  }
+
+  .note-site-header .header-cta {
+    padding: 9px 14px;
+  }
+
+  .notes-archive-hero {
+    padding-top: 82px;
+    padding-bottom: 72px;
+  }
+
+  .notes-archive-hero h1 {
+    font-size: 64px;
+  }
+
+  .notes-archive-hero > p:not(.eyebrow) {
+    font-size: 24px;
+  }
+
+  .archive-meta {
+    margin-top: 48px;
+  }
+
+  .notes-archive {
+    padding-bottom: 90px;
+  }
+
+  .archive-entry {
+    grid-template-columns: 1fr auto;
+    gap: 22px 16px;
+    padding: 34px 0;
+  }
+
+  .archive-entry-meta {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .archive-entry h3 {
+    font-size: 34px;
+  }
+
+  .archive-entry-arrow {
+    width: 42px;
+    height: 42px;
+  }
+
+  .note-hero {
+    padding-top: 64px;
+    padding-bottom: 66px;
+  }
+
+  .note-back {
+    margin-bottom: 54px;
+  }
+
+  .note-hero h1,
+  .note-hero-ai h1 {
+    font-size: clamp(46px, 13.5vw, 60px);
+  }
+
+  .note-deck {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+
+  .note-byline {
+    margin-top: 42px;
+  }
+
+  .note-layout {
+    padding-bottom: 90px;
+  }
+
+  .note-body {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .note-lead {
+    font-size: 21px;
+  }
+
+  .note-body h2 {
+    font-size: 38px;
+  }
+
+  .note-pullquote {
+    margin-top: 44px;
+    padding: 27px 0 26px 22px;
+    font-size: 31px;
+  }
+
+  .note-callout {
+    padding: 24px;
+  }
+
+  .note-callout strong {
+    font-size: 27px;
+  }
+
+  .note-allocation {
+    grid-template-columns: 1fr;
+  }
+
+  .note-allocation div {
+    min-height: 128px;
+  }
+
+  .note-allocation div + div {
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    border-left: 0;
+  }
+
+  .note-allocation strong {
+    font-size: 46px;
+  }
+
+  .note-stack {
+    grid-template-columns: 1fr;
+  }
+
+  .note-footer-nav {
+    padding-bottom: 84px;
+  }
+
+  .note-footer-nav a > span {
+    display: none;
+  }
+}

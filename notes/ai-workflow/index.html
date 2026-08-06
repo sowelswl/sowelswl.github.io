@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>从 GPT-3 Completion 到 Agentic Coding — 宋伟力</title>
+  <meta name="description" content="宋伟力梳理从GPT-3 Completion到Claude Code、Codex和Agent Systems的AI协作路径。">
+  <meta name="theme-color" content="#0b2520">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="从 GPT-3 Completion 到 Agentic Coding">
+  <meta property="og:description" content="从工具使用到工作方式：一条持续四年的AI协作路径。">
+  <meta property="og:url" content="https://weilisong.com/notes/ai-workflow/">
+  <meta property="article:published_time" content="2026-08-06">
+  <meta property="article:author" content="宋伟力">
+  <link rel="canonical" href="https://weilisong.com/notes/ai-workflow/">
+  <link rel="icon" href="/images/fav.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/landing.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "从 GPT-3 Completion 到 Agentic Coding",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "author": {"@type": "Person", "name": "宋伟力", "url": "https://weilisong.com/"},
+    "mainEntityOfPage": "https://weilisong.com/notes/ai-workflow/"
+  }
+  </script>
+</head>
+<body class="note-page">
+  <a class="skip-link" href="#article-content">跳到文章正文</a>
+
+  <header class="site-header note-site-header">
+    <a class="wordmark" href="/" aria-label="返回宋伟力个人主页"><span class="wordmark-mark" aria-hidden="true">WS</span><span>宋伟力</span></a>
+    <nav class="primary-nav" aria-label="文章导航">
+      <a href="/">个人主页</a>
+      <a href="/notes/">文章与复盘</a>
+      <a href="https://github.com/sowelswl/sowelswl">GitHub Profile</a>
+    </nav>
+    <div class="header-actions"><a class="header-cta" href="/notes/">全部文章 <span aria-hidden="true">↗</span></a></div>
+  </header>
+
+  <main>
+    <article data-note-author="宋伟力">
+      <header class="note-hero note-hero-ai section-shell">
+        <a class="note-back" href="/notes/">← 文章与复盘</a>
+        <p class="eyebrow">AI workflow · 02</p>
+        <h1>从 GPT-3 Completion 到 Agentic Coding</h1>
+        <p class="note-deck">我关心的从来不只是某一个模型，而是 AI 如何从一个回答问题的工具，逐步进入写作、研究、开发与决策的完整工作流。</p>
+        <div class="note-byline">
+          <span>宋伟力</span>
+          <time datetime="2026-08-06">2026 年 8 月 6 日</time>
+          <span>约 7 分钟阅读</span>
+        </div>
+      </header>
+
+      <div class="note-layout section-shell">
+        <aside class="note-toc" aria-label="文章目录">
+          <p>文章目录</p>
+          <a href="#beginning">01 起点</a>
+          <a href="#conversation">02 对话协作</a>
+          <a href="#ide">03 AI 原生 IDE</a>
+          <a href="#agents">04 Agentic Coding</a>
+          <a href="#overflow">05 智能的溢出</a>
+        </aside>
+
+        <div id="article-content" class="note-body">
+          <p class="note-lead">我从 2022 年下半年、GPT-3.5 发布之前开始把大语言模型纳入日常工作。四年里，使用方式经历了四次明显变化：从单次补全，到持续对话，再到 AI 原生开发环境，最后进入由 Claude Code、Codex 与 Agent Systems 共同组成的工作流。</p>
+
+          <section id="beginning">
+            <span class="note-section-index">01 · 2022 H2</span>
+            <h2>起点：GPT-3 Completion</h2>
+            <p>最早的使用场景是学术论文写作。那时没有今天成熟的聊天产品，我通过 GPT-3 Completion 辅助英文表达、改写和结构整理。它更像一种增强型文本工具：上下文短，协作方式也更接近一次性的输入与输出。</p>
+            <p>但这一步已经改变了我对个人生产力的想象。复杂任务不一定要等到“完全自动化”才有价值；只要一个环节被明显压缩，整个工作流就会重新排列。</p>
+          </section>
+
+          <section id="conversation">
+            <span class="note-section-index">02 · 2022—2024</span>
+            <h2>从补全走向对话协作</h2>
+            <p>随后，Claude Chat + GPT Chat 成为主要工具。使用场景从句子层面的修改扩展到学术文档、研究思路和量化策略开发。对话让模型能够保留更完整的任务上下文，也让我开始把工作拆成连续反馈，而不是期待一次得到最终答案。</p>
+            <p>这段时期形成了一个至今仍然重要的习惯：高质量协作依赖清晰目标、充分上下文和可验证结果。模型能力重要，但人如何定义问题同样重要。</p>
+          </section>
+
+          <section id="ide">
+            <span class="note-section-index">03 · 2024</span>
+            <h2>Cursor：模型进入工程环境</h2>
+            <p>2024 年，我转入 Cursor 等 LLM-driven IDE。变化不只是“写代码更快”，而是模型开始理解项目结构、跨文件修改，并参与从定位问题到实现验证的完整过程。</p>
+            <p>当 AI 进入真实工程环境后，人的角色也开始改变：需要更准确地说明约束、判断方案、审阅差异，并为最终结果负责。生成代码只是其中最容易的一步。</p>
+          </section>
+
+          <blockquote class="note-pullquote">AI 的价值不只在于替你完成一步，而在于让你重新设计整条工作流。</blockquote>
+
+          <section id="agents">
+            <span class="note-section-index">04 · 2025 H2—至今</span>
+            <h2>Claude Code、Codex 与 Agent Systems</h2>
+            <p>从 2025 年中开始，我把开发工作全面迁移到 Agentic Coding：Claude Code 是日常主力，Codex 用于更自主、异步的开发任务，同时持续搭建不同用途的 Agent Systems。</p>
+            <div class="note-stack" aria-label="当前AI工作栈">
+              <div><span>Daily driver</span><strong>Claude Code</strong><p>高频、连续的本地工程协作。</p></div>
+              <div><span>Autonomous work</span><strong>Codex</strong><p>较长链路、异步推进与验证。</p></div>
+              <div><span>Workflow layer</span><strong>Agent Systems</strong><p>把重复研究与跨工具流程系统化。</p></div>
+            </div>
+            <p>我现在更关注的不是“哪一个模型最好”，而是如何让不同能力在一个可控流程里协作：明确权限，保留验证环节，让自动化服务于结果，而不是制造更多需要人收拾的中间产物。</p>
+          </section>
+
+          <section id="overflow">
+            <span class="note-section-index">05 · Belief</span>
+            <h2>我所理解的“智能的溢出”</h2>
+            <p>我的核心判断是：AI 正在带来一种<strong>智能的溢出</strong>。过去需要长期专业训练才能跨过的门槛，会因为模型能力与工具化而显著降低。越来越多的人可以更快到达 <em>Expertise</em>——能够独立完成专业任务的水平。</p>
+            <div class="note-callout note-callout-dark">
+              <p>Expertise → Master</p>
+              <strong>AI 抬高起点，也会放大真正稀缺的差异。</strong>
+              <span>当执行能力逐渐普及，长期积累、判断品位、问题选择和承担责任的能力，将更大程度决定一个人的上限。</span>
+            </div>
+            <p>因此，我并不把 AI 看成积累的替代品。它更像一个放大器：可以放大清晰的目标和成熟的判断，也会放大模糊的问题与未经验证的自信。成为 <em>Master</em>，仍然需要时间、反馈和在真实结果面前持续修正自己。</p>
+          </section>
+
+          <section>
+            <span class="note-section-index">06 · Practice</span>
+            <h2>回到交易与研究</h2>
+            <p>这条 AI 路径最终也进入了我的交易研究：LLM 用于信息处理、观点比较、工具构建与决策复盘，Agent 系统用于自动化可重复流程。但仓位、风险与最终判断仍然由人承担。</p>
+            <p>我会继续记录这套工作方式的变化。工具一定会迭代，真正值得长期追踪的是：它是否提高了判断质量，是否减少了不可控错误，以及是否留下了可复盘的证据。</p>
+          </section>
+
+          <div class="note-disclaimer">
+            <strong>来源与边界</strong>
+            <p>本文整理自我的最新 <a href="https://github.com/sowelswl/sowelswl">GitHub Profile</a> 与个人实践记录。文中交易相关内容仅用于研究交流，不构成投资建议。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <nav class="note-footer-nav section-shell" aria-label="相关文章">
+      <span>继续阅读</span>
+      <a href="/notes/quant-to-discretionary/">
+        <small>上一篇 · 交易复盘</small>
+        <strong>为什么我从个人量化转向主观交易 + LLM</strong>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div><a class="wordmark wordmark-footer" href="/"><span class="wordmark-mark" aria-hidden="true">WS</span><span>宋伟力</span></a><p>主观交易、AI辅助决策与量化研究。</p></div>
+    <div class="footer-note"><p>文章仅记录个人研究与实践，不构成投资建议。</p><p>© 2026 宋伟力</p></div>
+  </footer>
+</body>
+</html>

@@ -17,6 +17,21 @@ The site is a personal profile and research hub, not an institution pretending t
 
 ## Editorial system
 
+The durable content layer lives under `/notes/`. The homepage shows only the two most useful current entries; the archive keeps the complete record. Each article has its own directory, canonical URL, publication date, author, related-note navigation, and a clear boundary between personal experience and investment advice.
+
+Current foundation articles:
+
+- `/notes/quant-to-discretionary/`: the 2023–2025 quantitative phase, the 2025.11 pivot, and the current 80/20 allocation.
+- `/notes/ai-workflow/`: the progression from GPT-3 Completion to Claude Code, Codex, and Agent Systems.
+
+When a new article is published:
+
+1. Create one descriptive, permanent directory under `/notes/`; never encode the date in the URL.
+2. Add the article to `/notes/index.html` with author, date, category, and a one-sentence thesis.
+3. Replace the less relevant homepage preview if the new article better explains current work; keep only two featured entries.
+4. Add the canonical route to `sitemap.xml` and use an article-specific campaign name on any live-report link.
+5. Verify the article at desktop and narrow widths before publishing.
+
 ### 月度复盘 · Monthly Portfolio Note
 
 Publish once after each calendar month closes.
