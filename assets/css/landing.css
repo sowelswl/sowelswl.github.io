@@ -2036,6 +2036,7 @@ button:focus-visible {
 .archive-meta {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 16px 40px;
   margin-top: 70px;
   padding-top: 20px;
@@ -2044,6 +2045,14 @@ button:focus-visible {
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.archive-subscribe {
+  margin-left: auto;
+  padding-bottom: 3px;
+  color: var(--ink);
+  border-bottom: 1px solid currentColor;
+  font-weight: 600;
 }
 
 .notes-archive {
@@ -2523,6 +2532,11 @@ button:focus-visible {
 
   .archive-meta {
     margin-top: 48px;
+  }
+
+  .archive-subscribe {
+    width: fit-content;
+    margin-left: 0;
   }
 
   .notes-archive {

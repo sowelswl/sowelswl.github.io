@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <title>宋伟力的文章与复盘</title>
+  <subtitle>关于主观交易、AI辅助决策与量化研究的个人记录。</subtitle>
+  <id>https://weilisong.com/feed.xml</id>
+  <link href="https://weilisong.com/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://weilisong.com/notes/" rel="alternate" type="text/html"/>
+  <updated>2026-08-06T00:00:00+08:00</updated>
+  <author>
+    <name>宋伟力</name>
+    <uri>https://weilisong.com/</uri>
+  </author>
+  <rights>© 2026 宋伟力</rights>
+
+  <entry>
+    <title>为什么我从个人量化转向主观交易 + LLM</title>
+    <id>https://weilisong.com/notes/quant-to-discretionary/</id>
+    <link href="https://weilisong.com/notes/quant-to-discretionary/" rel="alternate" type="text/html"/>
+    <published>2026-08-06T00:00:00+08:00</published>
+    <updated>2026-08-06T00:00:00+08:00</updated>
+    <category term="交易复盘"/>
+    <summary>回看2023至2025年的量化实盘阶段，以及为什么在2025年末将当前主线转向主观交易与AI辅助。这不是对量化的否定，而是一次基于实盘经验的角色重排。</summary>
+  </entry>
+
+  <entry>
+    <title>从 GPT-3 Completion 到 Agentic Coding</title>
+    <id>https://weilisong.com/notes/ai-workflow/</id>
+    <link href="https://weilisong.com/notes/ai-workflow/" rel="alternate" type="text/html"/>
+    <published>2026-08-06T00:00:00+08:00</published>
+    <updated>2026-08-06T00:00:00+08:00</updated>
+    <category term="AI工作流"/>
+    <summary>从GPT-3.5发布前开始，梳理一条从GPT-3 Completion、对话协作、AI原生IDE到Claude Code、Codex与Agent Systems的真实使用路径。</summary>
+  </entry>
+</feed>
