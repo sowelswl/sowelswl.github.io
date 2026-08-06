@@ -2,17 +2,18 @@
 
 This repository powers [weilisong.com](https://weilisong.com/), the personal website of Weili Song.
 
-宋伟力是湖南大学管理科学与工程博士研究生，拥有 3 年私募从业经验，目前独立管理自营资金。当前主要投入 A 股主观交易、LLM 辅助决策与量化研究。
+宋伟力是湖南大学管理科学与工程博士研究生，拥有 3 年私募从业经验，目前独立管理自营资金，是一名量化与主观结合的 A 股自营交易者；具体方法把主观交易研究、量化研究与风险判断放在同一条链路中，AI 与 LLM 只承担研究辅助角色。
 
 ## Website purpose
 
 The site helps a visitor understand three things quickly:
 
-1. Who Weili is and how his path developed from quantitative systems to discretionary trading.
-2. How AI and LLM workflows support research, review, and decision making without replacing human responsibility.
-3. Where to inspect research evidence, including AlphaForge and the separate live portfolio report.
+1. Who Weili is, how the Suya brand is organized, and how subjective research and quantitative systems work together.
+2. Where to follow Suya Talk, the primary public-content and reader-relationship channel.
+3. Where to inspect evidence, including the proprietary portfolio record, AlphaForge, and the forthcoming public timing ledger.
+4. How qualified traders and researchers can apply for lightweight research exchange.
 
-The Chinese edition at `/` is the canonical homepage. The English edition lives at `/en/`. Historical results are presented as research evidence, not as investment advice or a promise of future performance.
+The Chinese edition at `/` is the canonical, full homepage. The English edition at `/en/` is intentionally concise. Research-exchange and private-research information live at `/connect/research/` and `/connect/private-research/`. Historical results are evidence, not investment advice, fundraising, managed-money solicitation, or a promise of future performance.
 
 ## Operating model
 

@@ -19,8 +19,8 @@ function pngDimensions(buffer) {
 
 test("public pages publish complete large-card social metadata", async () => {
   const pages = [
-    ["index.html", "og-home.png", "宋伟力，主观交易者与量化研究者"],
-    ["en/index.html", "og-home.png", "Weili Song, discretionary trader and quantitative researcher"],
+    ["index.html", "og-home.png", "宋伟力，量化与主观结合的自营交易者"],
+    ["en/index.html", "og-home.png", "Weili Song, hybrid quantitative and discretionary proprietary trader"],
     ["notes/index.html", "og-home.png", "宋伟力的文章与复盘"],
     ["notes/quant-to-discretionary/index.html", "og-quant-to-discretionary.png", "为什么我从个人量化转向主观交易加 LLM"],
     ["notes/ai-workflow/index.html", "og-ai-workflow.png", "从 GPT-3 Completion 到 Agentic Coding"]

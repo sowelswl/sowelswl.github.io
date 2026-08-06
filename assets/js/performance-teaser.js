@@ -5,8 +5,8 @@
   const statsEndpoint = "https://www.suyainvestments.com/api/performance/stats?time_range=all"
   const dataEndpoint = "https://www.suyainvestments.com/api/data"
   const fields = {
-    annualizedReturn: root.querySelector('[data-performance="annualized-return"]'),
-    annualizedExcess: root.querySelector('[data-performance="annualized-excess"]'),
+    totalReturn: root.querySelector('[data-performance="total-return"]'),
+    totalExcess: root.querySelector('[data-performance="total-excess"]'),
     maxDrawdown: root.querySelector('[data-performance="max-drawdown"]'),
     asOf: root.querySelector('[data-performance="as-of"]'),
   }
@@ -25,17 +25,17 @@
       return response.json()
     })
     .then((data) => {
-      const annualizedReturn = data.returns.formatted.annualized
-      const annualizedExcess = data.excess_returns.formatted.annualized
+      const totalReturn = data.returns.formatted.total
+      const totalExcess = data.excess_returns.formatted.total
       const maxDrawdown = data.risk_metrics.formatted.max_drawdown
       const endDate = data.period.end_date
 
-      if (![annualizedReturn, annualizedExcess, maxDrawdown, endDate].every((value) => typeof value === "string")) {
+      if (![totalReturn, totalExcess, maxDrawdown, endDate].every((value) => typeof value === "string")) {
         throw new Error("Performance summary incomplete")
       }
 
-      fields.annualizedReturn.textContent = annualizedReturn
-      fields.annualizedExcess.textContent = annualizedExcess
+      fields.totalReturn.textContent = totalReturn
+      fields.totalExcess.textContent = totalExcess
       fields.maxDrawdown.textContent = formatDrawdown(maxDrawdown)
       fields.asOf.textContent = formatDate(endDate, {
         day: "2-digit",

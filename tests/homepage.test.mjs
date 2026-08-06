@@ -8,25 +8,24 @@ async function read(path) {
   return readFile(new URL(path, root), "utf8")
 }
 
-test("the default homepage introduces Weili before presenting investment evidence", async () => {
+test("the default homepage presents the hybrid proprietary-trader identity and conversion path", async () => {
   const html = await read("index.html")
 
   assert.match(html, /<html[^>]+lang="zh-CN"/)
   assert.match(html, /<h1[^>]*>[^<]*宋伟力/)
-  assert.match(html, /湖南大学/)
-  assert.match(html, /管理科学与工程博士研究生/)
-  assert.match(html, /主观交易/)
-  assert.match(html, /LLM|AI 辅助/)
+  assert.match(html, /量化与主观结合的自营交易者/)
   assert.match(html, /3年私募从业经验/)
-  assert.match(html, /href="#profile"/)
-  assert.match(html, /href="#performance"/)
+  assert.match(html, /data-cta="hero-wechat"[^>]+href="#suya-talk"/)
+  assert.match(html, /data-cta="hero-live-report"/)
   assert.match(html, /id="profile"/)
-  assert.match(html, /id="experience"/)
+  assert.match(html, /id="method"/)
   assert.match(html, /id="performance"/)
-  assert.match(html, /id="research"/)
-  assert.match(html, /id="principles"/)
+  assert.match(html, /id="suya-talk"/)
+  assert.match(html, /id="notes"/)
   assert.match(html, /id="contact"/)
-  assert.ok(html.indexOf('id="profile"') < html.indexOf('id="performance"'))
+  assert.ok(html.indexOf('id="method"') < html.indexOf('id="performance"'))
+  assert.ok(html.indexOf('id="performance"') < html.indexOf('id="suya-talk"'))
+  assert.doesNotMatch(html, /id="ai-workflow"|id="principles"|2026 Q2|2027\s*[—-]\s*2028/)
 })
 
 test("homepage promotes the live report without freezing performance claims", async () => {
@@ -43,12 +42,12 @@ test("performance teaser progressively loads the privacy-safe live summary", asy
   const [html, script] = await Promise.all([read("index.html"), read("assets/js/performance-teaser.js")])
 
   assert.match(html, /src="\/assets\/js\/performance-teaser\.js"[^>]*defer/)
-  for (const field of ["annualized-return", "annualized-excess", "max-drawdown", "as-of"]) {
+  for (const field of ["total-return", "total-excess", "max-drawdown", "as-of"]) {
     assert.match(html, new RegExp(`data-performance="${field}"`))
   }
   assert.match(script, /https:\/\/www\.suyainvestments\.com\/api\/performance\/stats\?time_range=all/)
-  assert.match(script, /returns\.formatted\.annualized/)
-  assert.match(script, /excess_returns\.formatted\.annualized/)
+  assert.match(script, /returns\.formatted\.total/)
+  assert.match(script, /excess_returns\.formatted\.total/)
   assert.match(script, /risk_metrics\.formatted\.max_drawdown/)
   assert.match(script, /\.textContent\s*=/)
   assert.match(script, /dataset\.status\s*=\s*"fallback"/)
@@ -62,8 +61,10 @@ test("homepage keeps research authority and collaboration paths visible", async 
   assert.match(html, /https:\/\/arxiv\.org\/abs\/2406\.18394/)
   assert.match(html, /https:\/\/ojs\.aaai\.org\/index\.php\/AAAI\/article\/view\/33365/)
   assert.match(html, /mailto:weilisong@hnu\.edu\.cn/)
-  assert.match(html, /量化投资研究/)
-  assert.match(html, /行业合作/)
+  assert.match(html, /申请投研交流/)
+  assert.match(html, /了解私人投研会员/)
+  assert.match(html, /href="\/connect\/research\/"/)
+  assert.match(html, /href="\/connect\/private-research\/"/)
   assert.doesNotMatch(html, /href="\/(?:publications|aboutmeCN)\//)
 })
 
