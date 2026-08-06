@@ -902,6 +902,82 @@ button:focus-visible {
   color: #adc1b8;
 }
 
+.wechat-channel {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+  margin: 0 0 24px;
+  padding: 18px 20px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
+  overflow-wrap: anywhere;
+}
+
+.wechat-channel-qr {
+  display: block;
+  width: 132px;
+  height: 132px;
+  padding: 5px;
+  object-fit: contain;
+  background: var(--white);
+  border-radius: 14px;
+}
+
+.wechat-channel-copy {
+  display: flex;
+  min-width: 0;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.wechat-channel-label {
+  width: fit-content;
+  padding: 7px 10px;
+  color: var(--forest);
+  background: #e6bf7c;
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.wechat-channel strong {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.wechat-channel-instruction {
+  color: #adc1b8;
+  font-size: 12px;
+}
+
+.wechat-channel-copy > a {
+  margin-top: 3px;
+  padding-bottom: 2px;
+  color: var(--white);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.contact-links {
+  gap: 12px 22px;
+  margin: 0 0 28px;
+  color: #b8cac2;
+  font-size: 12px;
+}
+
+.contact-links a {
+  color: var(--white);
+}
+
 .button-light {
   color: var(--forest);
   background: var(--paper);
@@ -1160,6 +1236,17 @@ button:focus-visible {
 
   .contact-copy {
     margin-top: 38px;
+  }
+
+  .wechat-channel {
+    grid-template-columns: 116px minmax(0, 1fr);
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .wechat-channel-qr {
+    width: 116px;
+    height: 116px;
   }
 
   .site-footer {
@@ -1505,16 +1592,6 @@ button:focus-visible {
   font-size: clamp(23px, 2.4vw, 32px);
   letter-spacing: -0.025em;
   line-height: 1.28;
-}
-
-.profile-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 26px;
-  margin-top: 38px;
-  color: var(--forest-soft);
-  font-size: 13px;
-  font-weight: 600;
 }
 
 .profile-sidebar {
@@ -1942,6 +2019,19 @@ button:focus-visible {
     radial-gradient(circle at 84% 12%, rgba(108, 183, 150, 0.2), transparent 32%),
     var(--forest);
   border-color: transparent;
+}
+
+.note-card-wechat {
+  grid-column: 1 / -1;
+  min-height: 340px;
+  background:
+    radial-gradient(circle at 90% 8%, rgba(226, 183, 108, 0.24), transparent 34%),
+    #f5eee2;
+  border-color: #dfd2bc;
+}
+
+.note-card-wechat h3 {
+  max-width: 980px;
 }
 
 .note-card-meta {

@@ -7,6 +7,7 @@ const html = await readFile(new URL("../index.html", import.meta.url), "utf8")
 test("the first two sections provide a thirty-second personal profile", () => {
   const hero = html.match(/<section class="hero[\s\S]*?<\/section>/)?.[0] ?? ""
   const profile = html.match(/<section id="profile"[\s\S]*?<\/section>/)?.[0] ?? ""
+  const contact = html.match(/<section id="contact"[\s\S]*?<\/section>/)?.[0] ?? ""
 
   assert.match(hero, /宋伟力/)
   assert.match(hero, /湖南大学/)
@@ -16,7 +17,8 @@ test("the first two sections provide a thirty-second personal profile", () => {
   assert.match(profile, /3年私募从业经验/)
   assert.match(profile, /独立管理自营资金/)
   assert.match(profile, /量化研究/)
-  assert.match(profile, /weilisong@hnu\.edu\.cn/)
+  assert.doesNotMatch(profile, /weilisong@hnu\.edu\.cn/)
+  assert.match(contact, /weilisong@hnu\.edu\.cn/)
 })
 
 test("the page turns verified experience into scan-friendly milestones", () => {
