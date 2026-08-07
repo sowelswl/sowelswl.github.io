@@ -124,72 +124,83 @@
   scroll-margin-top: 78px;
 }
 
-.timing-ledger-panel {
+.timing-ledger .section-heading {
+  margin-bottom: 54px;
+}
+
+.timing-ledger .section-heading-row {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.72fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.7fr);
+}
+
+.timing-ledger-board {
   overflow: hidden;
-  color: var(--white);
-  background:
-    radial-gradient(circle at 78% 18%, rgba(67, 145, 113, 0.38), transparent 30%),
-    linear-gradient(135deg, #081d19, #12372d);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 30px;
-  box-shadow: 0 38px 90px rgba(8, 29, 25, 0.2);
+  padding: clamp(30px, 4vw, 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: 0 18px 50px rgba(16, 32, 28, 0.06);
 }
 
-.timing-ledger-copy,
-.timing-ledger-proof {
-  min-width: 0;
-  padding: clamp(34px, 5vw, 66px);
+.timing-ledger-board-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  color: var(--forest);
+  font-size: 13px;
 }
 
-.timing-ledger .eyebrow,
-.timing-proof-kicker {
-  color: #8ed0b5;
+.timing-ledger-board-topline > div {
+  display: flex;
+  align-items: center;
 }
 
 .core-asset-tag {
   display: inline-flex;
-  padding: 7px 11px;
-  color: #dcece5;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 7px 12px;
+  color: var(--emerald);
+  background: #e7f0eb;
+  border: 1px solid rgba(31, 114, 88, 0.16);
   border-radius: 999px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.1em;
-}
-
-.timing-ledger h2 {
-  max-width: 720px;
-  margin: 30px 0 24px;
-  font-family: var(--serif);
-  font-size: clamp(46px, 5.3vw, 76px);
-  font-weight: 400;
-  letter-spacing: -0.045em;
-  line-height: 0.98;
-}
-
-.timing-ledger-copy > p:not(.eyebrow) {
-  max-width: 690px;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 17px;
+  letter-spacing: 0.08em;
 }
 
 .timing-state-scale {
   display: grid;
-  grid-template-columns: repeat(5, minmax(100px, 1fr));
-  margin: 42px 0 0;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin: 34px 0 0;
   padding: 0;
-  overflow-x: auto;
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
   list-style: none;
 }
 
 .timing-state-scale li {
-  padding: 18px 14px;
-  border-right: 1px solid rgba(255, 255, 255, 0.14);
+  --state-accent: #9a7461;
+  padding: 23px 20px 21px;
+  border-top: 3px solid var(--state-accent);
+  border-right: 1px solid var(--line);
+}
+
+.timing-state-scale li:nth-child(2) {
+  --state-accent: #b5966e;
+}
+
+.timing-state-scale li:nth-child(3) {
+  --state-accent: #8b9b89;
+}
+
+.timing-state-scale li:nth-child(4) {
+  --state-accent: #5d967d;
+}
+
+.timing-state-scale li:nth-child(5) {
+  --state-accent: var(--emerald);
 }
 
 .timing-state-scale li:last-child {
@@ -197,100 +208,137 @@
 }
 
 .timing-state-scale span,
-.timing-state-scale strong {
+.timing-state-scale strong,
+.timing-state-scale small {
   display: block;
 }
 
 .timing-state-scale span {
-  color: #8ed0b5;
-  font-size: 10px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
 }
 
 .timing-state-scale strong {
-  margin-top: 12px;
+  margin-top: 8px;
+  color: var(--forest);
   font-family: var(--serif);
-  font-size: 22px;
+  font-size: 27px;
   font-weight: 400;
 }
 
-.timing-ledger-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  align-items: center;
+.timing-state-scale small {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.timing-ledger-evidence {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
   margin-top: 34px;
-}
-
-.timing-ledger-button {
-  color: var(--forest);
-  background: var(--white);
-}
-
-.timing-ledger-actions > span {
-  color: rgba(255, 255, 255, 0.56);
-  font-size: 12px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .timing-ledger-proof {
-  align-self: stretch;
-  background: rgba(255, 255, 255, 0.06);
-  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  min-width: 0;
+  padding: 30px 34px 30px 0;
 }
 
 .timing-proof-kicker {
-  margin: 0 0 30px;
-  font-size: 11px;
+  margin: 0 0 18px;
+  color: var(--emerald);
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.14em;
 }
 
 .timing-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
   margin: 0;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 12px;
 }
 
 .timing-proof-grid div {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 17px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  min-width: 0;
+  padding: 17px 16px;
+  background: var(--paper);
 }
 
 .timing-proof-grid dt {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
+  color: var(--muted);
+  font-size: 10px;
 }
 
 .timing-proof-grid dd {
-  margin: 0;
-  text-align: right;
+  margin: 7px 0 0;
+  color: var(--forest);
+  font-size: 13px;
   font-weight: 600;
 }
 
 .timing-indexes {
-  margin-top: 34px;
+  min-width: 0;
+  padding: 30px 0 30px 34px;
+  border-left: 1px solid var(--line);
 }
 
 .timing-indexes span {
-  color: #8ed0b5;
-  font-size: 11px;
+  color: var(--emerald);
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.1em;
 }
 
 .timing-indexes p {
-  margin: 10px 0 0;
+  margin: 12px 0 0;
+  color: var(--forest);
   font-family: var(--serif);
-  font-size: 24px;
-  line-height: 1.35;
+  font-size: 23px;
+  line-height: 1.42;
+}
+
+.timing-ledger-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  align-items: center;
+  padding-top: 30px;
 }
 
 .timing-boundary {
-  margin: 36px 0 0;
-  padding-top: 24px;
-  color: rgba(255, 255, 255, 0.56);
-  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  max-width: 650px;
+  margin: 0;
+  color: var(--muted);
   font-size: 12px;
+}
+
+.timing-ledger-actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 13px;
+  align-items: center;
+}
+
+.timing-ledger-button {
+  color: var(--white);
+  background: var(--forest);
+}
+
+.timing-ledger-button:hover {
+  background: var(--forest-soft);
+}
+
+.timing-ledger-actions > span {
+  color: var(--muted);
+  font-size: 11px;
 }
 
 .evidence-layout {
@@ -545,7 +593,6 @@
 @media (max-width: 920px) {
   .method-grid,
   .evidence-layout,
-  .timing-ledger-panel,
   .suya-talk-layout,
   .application-grid {
     grid-template-columns: 1fr;
@@ -559,8 +606,23 @@
     margin-top: 70px;
   }
 
+  .timing-ledger .section-heading-row {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 24px;
+  }
+
+  .timing-ledger-evidence {
+    grid-template-columns: 1fr;
+  }
+
   .timing-ledger-proof {
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-right: 0;
+  }
+
+  .timing-indexes {
+    padding-left: 0;
+    border-top: 1px solid var(--line);
     border-left: 0;
   }
 }
@@ -585,26 +647,75 @@
     padding-bottom: 90px;
   }
 
-  .timing-ledger-panel {
-    border-radius: 20px;
+  .timing-ledger .section-heading {
+    margin-bottom: 38px;
   }
 
-  .timing-ledger-copy,
-  .timing-ledger-proof {
-    padding: 30px 22px;
+  .timing-ledger-board {
+    padding: 24px 18px;
+    border-radius: 18px;
+  }
+
+  .timing-ledger-board-topline {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
   }
 
   .timing-state-scale {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin-top: 26px;
+    border-radius: 12px;
   }
 
   .timing-state-scale li {
-    padding-right: 7px;
-    padding-left: 7px;
+    padding: 16px 5px 14px;
+    text-align: center;
   }
 
   .timing-state-scale strong {
-    font-size: 18px;
+    font-size: 17px;
+  }
+
+  .timing-state-scale small {
+    display: none;
+  }
+
+  .timing-ledger-evidence {
+    margin-top: 26px;
+  }
+
+  .timing-ledger-proof,
+  .timing-indexes {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .timing-proof-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timing-proof-grid div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .timing-proof-grid dd {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .timing-ledger-footer {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 24px;
+  }
+
+  .timing-ledger-actions {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .suya-talk-layout {
