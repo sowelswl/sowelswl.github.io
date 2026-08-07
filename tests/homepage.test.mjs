@@ -31,7 +31,7 @@ test("the default homepage presents the hybrid proprietary-trader identity and c
   assert.doesNotMatch(html, /id="ai-workflow"|id="principles"|2026 Q2|2027\s*[—-]\s*2028/)
 })
 
-test("homepage presents the five-state timing ledger as a core research asset", async () => {
+test("homepage presents the five-state timing ledger as a cohesive editorial section", async () => {
   const [html, css] = await Promise.all([read("index.html"), read("assets/css/landing.css")])
 
   assert.match(html, /核心系统[\s\S]*苏牙择时/)
@@ -40,11 +40,16 @@ test("homepage presents the five-state timing ledger as a core research asset", 
   assert.match(html, /核心研究资产/)
   assert.match(html, /href="\/ledger\/"/)
   assert.match(html, /不公开完整历史序列|不公开[\s\S]*生成规则/)
-  assert.match(css, /\.timing-ledger-panel/)
+  assert.match(html, /id="timing-ledger"[\s\S]*class="section-heading section-heading-row"/)
+  assert.match(html, /class="timing-ledger-board"/)
+  assert.match(css, /\.timing-ledger-board\s*\{[^}]*background:\s*var\(--white\)[^}]*border-radius:\s*22px/s)
+  assert.doesNotMatch(css, /\.timing-ledger-board\s*\{[^}]*linear-gradient/s)
+  assert.match(css, /\.timing-ledger \.section-heading-row\s*\{[^}]*grid-template-columns:\s*minmax\(0, 1\.3fr\) minmax\(320px, 0\.7fr\)/s)
   assert.match(css, /\.timing-state-scale/)
   assert.match(css, /\.timing-ledger\s*\{[^}]*scroll-margin-top:\s*78px/s)
-  assert.match(css, /\.timing-ledger-copy,\s*\.timing-ledger-proof\s*\{[^}]*min-width:\s*0/s)
+  assert.match(css, /\.timing-proof-grid\s*\{[^}]*grid-template-columns:\s*repeat\(3, minmax\(0, 1fr\)\)/s)
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*\.timing-state-scale\s*\{[^}]*repeat\(5, minmax\(0, 1fr\)\)/)
+  assert.match(css, /@media \(max-width: 760px\)[\s\S]*\.timing-proof-grid\s*\{[^}]*grid-template-columns:\s*1fr/s)
 })
 
 test("homepage promotes the live report without freezing performance claims", async () => {

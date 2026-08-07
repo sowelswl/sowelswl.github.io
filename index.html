@@ -142,37 +142,50 @@
     </section>
 
     <section id="timing-ledger" class="timing-ledger section-shell" aria-labelledby="timing-ledger-title">
-      <div class="timing-ledger-panel">
-        <div class="timing-ledger-copy">
+      <div class="section-heading section-heading-row">
+        <div>
           <p class="eyebrow">03 — 核心系统 · 苏牙择时</p>
-          <span class="core-asset-tag">核心研究资产</span>
-          <h2 id="timing-ledger-title">把每天的大盘方向，<br>变成可验证的事前记录。</h2>
-          <p>苏牙择时每天对下一个交易日给出一档市场状态。它不是孤立的涨跌口令，而是我管理组合风险暴露、决定何时积极与何时防守的上游输入。</p>
-          <ol class="timing-state-scale" aria-label="苏牙择时五档市场状态">
-            <li><span>-2</span><strong>强空</strong></li>
-            <li><span>-1</span><strong>弱空</strong></li>
-            <li><span>0</span><strong>看平</strong></li>
-            <li><span>+1</span><strong>弱多</strong></li>
-            <li><span>+2</span><strong>强多</strong></li>
-          </ol>
+          <h2 id="timing-ledger-title">每天一档状态，<br>留下事前证据。</h2>
+        </div>
+        <p>苏牙择时每天对下一个交易日给出一档市场状态。它不是孤立的涨跌口令，而是我管理组合风险暴露、决定何时积极与何时防守的上游输入。</p>
+      </div>
+
+      <div class="timing-ledger-board">
+        <div class="timing-ledger-board-topline">
+          <div><span class="status-dot" aria-hidden="true"></span><strong>苏牙择时</strong></div>
+          <span class="core-asset-tag">核心研究资产 · 每日更新</span>
+        </div>
+
+        <ol class="timing-state-scale" aria-label="苏牙择时五档市场状态">
+          <li><span>-2</span><strong>强空</strong><small>风险收缩</small></li>
+          <li><span>-1</span><strong>弱空</strong><small>降低暴露</small></li>
+          <li><span>0</span><strong>看平</strong><small>轻微多头</small></li>
+          <li><span>+1</span><strong>弱多</strong><small>适度多头</small></li>
+          <li><span>+2</span><strong>强多</strong><small>提高暴露</small></li>
+        </ol>
+
+        <div class="timing-ledger-evidence">
+          <div class="timing-ledger-proof" aria-label="苏牙择时公开验证范围">
+            <p class="timing-proof-kicker">PUBLIC PROOF · 公开验证</p>
+            <dl class="timing-proof-grid">
+              <div><dt>预测周期</dt><dd>下一交易日</dd></div>
+              <div><dt>发布方式</dt><dd>事前哈希承诺</dd></div>
+              <div><dt>验证方式</dt><dd>延迟揭示 · 浏览器验真</dd></div>
+            </dl>
+          </div>
+          <div class="timing-indexes">
+            <span>同口径宽基评价</span>
+            <p>中证500 · 沪深300 · 中证1000 · 中证2000 · 上证指数</p>
+          </div>
+        </div>
+
+        <div class="timing-ledger-footer">
+          <p class="timing-boundary">公开的是验证框架、最近20日窗口和全部历史的聚合评价；不公开完整历史序列，也不公开信号生成规则。</p>
           <div class="timing-ledger-actions">
             <a class="button timing-ledger-button" href="/ledger/">打开公开择时账本 <span aria-hidden="true">↗</span></a>
             <span>无需 GitHub 账号</span>
           </div>
         </div>
-        <aside class="timing-ledger-proof" aria-label="苏牙择时公开验证范围">
-          <p class="timing-proof-kicker">PUBLIC PROOF</p>
-          <dl class="timing-proof-grid">
-            <div><dt>预测周期</dt><dd>下一交易日</dd></div>
-            <div><dt>发布方式</dt><dd>事前哈希承诺</dd></div>
-            <div><dt>验证方式</dt><dd>延迟揭示 · 浏览器验真</dd></div>
-          </dl>
-          <div class="timing-indexes">
-            <span>同口径宽基评价</span>
-            <p>中证500 · 沪深300 · 中证1000 · 中证2000 · 上证指数</p>
-          </div>
-          <p class="timing-boundary">公开的是验证框架、最近20日窗口和全部历史的聚合评价；不公开完整历史序列，也不公开信号生成规则。</p>
-        </aside>
       </div>
     </section>
 
