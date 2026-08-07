@@ -1,4 +1,7 @@
-const SOURCE_NAME = "aistk.public.micro_timing_final_tail_hold_dates:trend5mcx"
+const KNOWN_SOURCE_NAMES = new Set([
+  "aistk.public.micro_timing_final_tail_hold_dates:trend5mcx",
+  "signal_db.public.jq_time_series_signal_daily:ret_trend_lev_ma_5level_calendar@3.2#98bc3197708958de:IC.CFE",
+])
 const PUBLIC_DATA_URL = "https://raw.githubusercontent.com/sowelswl/suya-market-regime-ledger/main/docs/data/index.json"
 
 export function canonicalize(value) {
@@ -23,7 +26,7 @@ function canonicalReveal(reveal) {
     schema_version: "2.0",
     sequence: reveal.sequence,
     previous_commitment: reveal.previous_commitment,
-    source: SOURCE_NAME,
+    source: reveal.source,
     as_of_trade_date: reveal.as_of_trade_date,
     prediction_horizon: "next_trading_session",
     committed_at: reveal.committed_at,
@@ -43,6 +46,7 @@ async function sha256Hex(value) {
 export async function verifyReveal(commitment, reveal) {
   try {
     if (!commitment || !reveal) return false
+    if (commitment.source !== reveal.source || !KNOWN_SOURCE_NAMES.has(reveal.source)) return false
     for (const field of ["sequence", "previous_commitment", "as_of_trade_date", "prediction_horizon", "committed_at", "source_generated_at"]) {
       if (commitment[field] !== reveal[field]) return false
     }
