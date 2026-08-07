@@ -9,23 +9,34 @@ async function read(path) {
 }
 
 test("research exchange and private research have separate, scoped application paths", async () => {
-  const [research, membership] = await Promise.all([
+  const [research, membership, styles] = await Promise.all([
     read("connect/research/index.html"),
     read("connect/private-research/index.html"),
+    read("assets/css/landing.css"),
   ])
 
   assert.match(research, /申请投研交流/)
   assert.match(research, /研究方向|交流主题/)
   assert.match(research, /能分享|可贡献/)
-  assert.match(research, /如何了解到苏牙/)
-  assert.match(research, /mailto:weilisong@hnu\.edu\.cn/)
+  assert.match(research, /先关注[\s\S]*苏牙说[\s\S]*再添加[\s\S]*个人微信/)
+  assert.match(research, /src="\/images\/wechat-suyashuo-qr\.png"[^>]+alt="微信公众号苏牙说二维码"/)
+  assert.match(research, /src="\/images\/wechat\.jpg"[^>]+alt="宋伟力个人微信二维码"/)
+  assert.match(research, /微信号：sowelswl/)
+  assert.doesNotMatch(research, /mailto:/)
 
   assert.match(membership, /苏牙私人投研会员/)
   assert.match(membership, /候补|一个月/)
   assert.match(membership, /交易经验/)
   assert.match(membership, /风险认知/)
+  assert.match(membership, /先关注[\s\S]*苏牙说[\s\S]*再添加[\s\S]*个人微信/)
+  assert.match(membership, /发送[“「]私人投研会员[”」]/)
+  assert.match(membership, /src="\/images\/wechat-suyashuo-qr\.png"[^>]+alt="微信公众号苏牙说二维码"/)
+  assert.match(membership, /src="\/images\/wechat\.jpg"[^>]+alt="宋伟力个人微信二维码"/)
   assert.match(membership, /不代客理财|不提供个性化买卖指令/)
-  assert.match(membership, /mailto:weilisong@hnu\.edu\.cn/)
+  assert.doesNotMatch(membership, /mailto:/)
+
+  assert.match(styles, /\.application-channel-grid/)
+  assert.match(styles, /\.application-qr/)
 })
 
 test("application pages collect no asset, income, or holding details", async () => {
