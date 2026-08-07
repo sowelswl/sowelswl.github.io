@@ -19,13 +19,32 @@ test("the default homepage presents the hybrid proprietary-trader identity and c
   assert.match(html, /data-cta="hero-live-report"/)
   assert.match(html, /id="profile"/)
   assert.match(html, /id="method"/)
+  assert.match(html, /id="timing-ledger"/)
   assert.match(html, /id="performance"/)
   assert.match(html, /id="suya-talk"/)
   assert.match(html, /id="notes"/)
   assert.match(html, /id="contact"/)
   assert.ok(html.indexOf('id="method"') < html.indexOf('id="performance"'))
+  assert.ok(html.indexOf('id="method"') < html.indexOf('id="timing-ledger"'))
+  assert.ok(html.indexOf('id="timing-ledger"') < html.indexOf('id="performance"'))
   assert.ok(html.indexOf('id="performance"') < html.indexOf('id="suya-talk"'))
   assert.doesNotMatch(html, /id="ai-workflow"|id="principles"|2026 Q2|2027\s*[—-]\s*2028/)
+})
+
+test("homepage presents the five-state timing ledger as a core research asset", async () => {
+  const [html, css] = await Promise.all([read("index.html"), read("assets/css/landing.css")])
+
+  assert.match(html, /核心系统[\s\S]*苏牙择时/)
+  assert.match(html, /强空[\s\S]*弱空[\s\S]*看平[\s\S]*弱多[\s\S]*强多/)
+  assert.match(html, /中证500[\s\S]*沪深300[\s\S]*中证1000[\s\S]*中证2000[\s\S]*上证指数/)
+  assert.match(html, /核心研究资产/)
+  assert.match(html, /href="\/ledger\/"/)
+  assert.match(html, /不公开完整历史序列|不公开[\s\S]*生成规则/)
+  assert.match(css, /\.timing-ledger-panel/)
+  assert.match(css, /\.timing-state-scale/)
+  assert.match(css, /\.timing-ledger\s*\{[^}]*scroll-margin-top:\s*78px/s)
+  assert.match(css, /\.timing-ledger-copy,\s*\.timing-ledger-proof\s*\{[^}]*min-width:\s*0/s)
+  assert.match(css, /@media \(max-width: 760px\)[\s\S]*\.timing-state-scale\s*\{[^}]*repeat\(5, minmax\(0, 1fr\)\)/)
 })
 
 test("homepage promotes the live report without freezing performance claims", async () => {
