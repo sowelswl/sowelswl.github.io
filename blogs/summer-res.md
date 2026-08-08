@@ -16,14 +16,6 @@ title: summer-res
 
 <br>
 
-----
-
-## Star History
-
-<br>[![Star History Chart](https://api.star-history.com/svg?repos=GuangLun2000/summer-research-app&type=Date)](https://star-history.com/#GuangLun2000/summer-research-app&Date)
-
-<br>
-
 ---
 
 ## Useful Links
