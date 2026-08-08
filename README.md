@@ -28,11 +28,6 @@ This site is a **[Jekyll](https://jekyllrb.com/)** project built by **[GitHub Pa
 
 For a deeper walkthrough (including local preview with Ruby/Jekyll), see the [website building tutorial](https://caihanlin.com/blogs/web/) on the blog.
 
-## Star History
-
-**If you like it, please STAR it! 🥰**
-[![Star History Chart](https://api.star-history.com/svg?repos=GuangLun2000/GuangLun2000.github.io&type=Date)](https://www.star-history.com/#GuangLun2000/GuangLun2000.github.io&Date)
-
 ## Statement
 
 © Hanlin Cai. Published with [GitHub Pages](https://pages.github.com/), powered by [Jekyll](https://jekyllrb.com/), based on the [Minimal Mistakes](https://mademistakes.com/) theme and [Jason Ansel's site](https://github.com/jansel/jansel.github.io). Source code for this website can be found [here](https://github.com/GuangLun2000/GuangLun2000.github.io).
