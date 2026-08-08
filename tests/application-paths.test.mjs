@@ -15,13 +15,18 @@ test("research exchange and private research have separate, scoped application p
     read("assets/css/landing.css"),
   ])
 
-  assert.match(research, /申请投研交流/)
+  assert.match(research, /<title>投研交流 — 宋伟力<\/title>/)
+  assert.match(research, /<h1>投研交流<\/h1>/)
+  assert.doesNotMatch(research, /申请投研交流/)
   assert.match(research, /研究方向|交流主题/)
   assert.match(research, /能分享|可贡献/)
   assert.match(research, /先关注[\s\S]*苏牙说[\s\S]*再添加[\s\S]*个人微信/)
   assert.match(research, /src="\/images\/wechat-suyashuo-qr\.png"[^>]+alt="微信公众号苏牙说二维码"/)
   assert.match(research, /src="\/images\/wechat\.jpg"[^>]+alt="宋伟力个人微信二维码"/)
   assert.match(research, /微信号：sowelswl/)
+  assert.equal((research.match(/class="application-qr-link"/g) ?? []).length, 2)
+  assert.match(research, /手机端可长按二维码识别/)
+  assert.match(research, /点击二维码查看原图/)
   assert.doesNotMatch(research, /mailto:/)
 
   assert.match(membership, /苏牙私人投研会员/)
@@ -32,11 +37,16 @@ test("research exchange and private research have separate, scoped application p
   assert.match(membership, /发送[“「]私人投研会员[”」]/)
   assert.match(membership, /src="\/images\/wechat-suyashuo-qr\.png"[^>]+alt="微信公众号苏牙说二维码"/)
   assert.match(membership, /src="\/images\/wechat\.jpg"[^>]+alt="宋伟力个人微信二维码"/)
+  assert.equal((membership.match(/class="application-qr-link"/g) ?? []).length, 2)
+  assert.match(membership, /手机端可长按二维码识别/)
+  assert.match(membership, /点击二维码查看原图/)
   assert.match(membership, /不代客理财|不提供个性化买卖指令/)
   assert.doesNotMatch(membership, /mailto:/)
 
   assert.match(styles, /\.application-channel-grid/)
   assert.match(styles, /\.application-qr/)
+  assert.match(styles, /\.application-qr-link/)
+  assert.match(styles, /\.application-qr-tip/)
 })
 
 test("application pages collect no asset, income, or holding details", async () => {
