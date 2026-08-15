@@ -6,7 +6,7 @@ layout: page
 
 <img src="{{ "/caihanlin.jpg" | relative_url }}" class="floatpic" alt="Hanlin Cai">
 
-<br>Here is **Hanlin Cai** (Lance, 蔡汉霖).<br>
+<br>Here is **Hanlin Cai** (Lance, 蔡汉霖). I am the founder of the [Cambridge AI for Wellbeing Soceity](https://ai4wellbeing.github.io/).
 
 <br>I am a first-year PhD student at the [Centre for neXt Communications](https://oba.eco/people/) at the **University of Cambridge**, where I am fortunate to be supervised by [Ozgur B. Akan](https://oba.eco/), and advised by [Jon Crowcroft](https://www.cst.cam.ac.uk/people/jac22) and [Kai Li](https://sites.google.com/site/lukasunsw/Home).
 
