@@ -1505,6 +1505,17 @@ button:focus-visible {
   opacity: 0;
 }
 
+.performance-status {
+  margin: 18px 7% 0;
+  border: 1px solid rgba(232, 197, 104, 0.28);
+  border-radius: 12px;
+  background: rgba(232, 197, 104, 0.08);
+  padding: 11px 13px;
+  color: #ead9a8;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .report-card-footer {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -2461,6 +2472,23 @@ button:focus-visible {
   gap: clamp(52px, 7vw, 92px);
 }
 
+.profile-identity {
+  display: grid;
+  gap: 30px;
+  align-self: start;
+}
+
+.profile-portrait {
+  justify-self: end;
+  width: min(100%, 360px);
+}
+
+.profile-portrait .portrait-frame img {
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-position: center 16%;
+}
+
 .profile-story {
   min-width: 0;
 }
@@ -2842,6 +2870,15 @@ button:focus-visible {
 
   .profile-layout {
     gap: 52px;
+  }
+
+  .profile-identity {
+    order: -1;
+  }
+
+  .profile-portrait {
+    justify-self: center;
+    width: min(86%, 360px);
   }
 
   .profile-story > p:not(.profile-lead) {

@@ -26,8 +26,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/landing.css?v=20260817-resume">
-  <script src="/assets/js/performance-teaser.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/landing.css?v=20260817-identity">
+  <script src="/assets/js/performance-teaser.js?v=20260817-identity" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,7 +48,7 @@
       <span>量化研究档案</span>
     </a>
     <nav class="primary-nav" aria-label="主要导航">
-      <a href="#profile">能力概览</a>
+      <a href="#profile">关于宋伟力</a>
       <a href="#method">交易方法</a>
       <a href="#timing-ledger">择时账本</a>
       <a href="#performance">证据</a>
@@ -89,22 +89,35 @@
     <section id="profile" class="profile section-shell" aria-labelledby="profile-title">
       <div class="section-heading section-heading-row">
         <div>
-          <p class="eyebrow">01 — 能力概览</p>
-          <h2 id="profile-title">能力来自完整链路，<br>不来自个人标签。</h2>
+          <p class="eyebrow">01 — 关于宋伟力</p>
+          <h2 id="profile-title">先知道是谁，<br>再看成果。</h2>
         </div>
-        <p>公开记录聚焦方法、系统和证据。宋伟力作为实名作者，对本站展示的个人研究与账户记录负责。</p>
+        <p>本站由宋伟力维护。个人身份用于说明研究来源与责任主体；能力、方法和可验证证据仍是内容主线。</p>
       </div>
       <div class="profile-layout profile-layout-compact">
         <div class="profile-story">
-          <p class="profile-lead">具备私募量化研究经历，能够单人从零到一完成数据层、因子层、模型层、组合优化、风险、交易、监控与归因的全栈建设。</p>
+          <p class="profile-lead">我是宋伟力，湖南大学管理科学与工程博士研究生、澳大利亚国立大学统计学硕士，研究方向为量化金融与金融风险管理；曾在量化私募从事策略研究。</p>
+          <p>我是AAAI 2025论文AlphaForge共同作者（作者列表第2位），参与公式化Alpha因子挖掘与动态组合研究。</p>
+          <p>2024年后，我将工作重心转向个人量化研究与实盘，单人从零到一完成数据层、因子层、模型层、组合优化、风险、交易、监控与归因的全栈建设。</p>
           <p>研究同时覆盖横截面选股、时序与主观择时：结合时序模型、市场状态、量价结构与风险偏好进行交叉验证，择时模型已经进入个人自营账户实盘，用于管理风险暴露。</p>
           <p>以AI 2.0与Vibe Coding推进RSI式递归自我改进：让LLM与AI Agent辅助拆解需求、生成代码、测试调试、归因诊断与设计下一轮实验；核心组件独立验证，最终由人负责独立验证、风险治理、上线审批。</p>
         </div>
-        <dl class="brand-map" aria-label="量化研究能力结构">
-          <div><dt>全栈建设</dt><dd>单人贯通研究、工程、组合与交易</dd></div>
-          <div><dt>实盘验证</dt><dd>个人自营账户记录选股、时序与主观择时</dd></div>
-          <div><dt>持续迭代</dt><dd>AI 2.0提升实验密度，人类负责风险治理</dd></div>
-        </dl>
+        <aside class="profile-identity" aria-label="宋伟力个人介绍">
+          <div class="profile-portrait">
+            <div class="portrait-frame">
+              <picture class="portrait-picture">
+                <source type="image/webp" srcset="/images/weilisong-portrait-640.webp 640w, /images/weilisong-portrait-960.webp 960w" sizes="(max-width: 760px) 86vw, 360px">
+                <img src="/images/weilisong-portrait-960.webp" alt="宋伟力个人照片" width="960" height="1441" loading="lazy">
+              </picture>
+              <div class="portrait-caption"><span>Weili Song</span><span>宋伟力</span></div>
+            </div>
+          </div>
+          <dl class="brand-map" aria-label="宋伟力的背景与研究结构">
+            <div><dt>学术训练</dt><dd>管理科学与工程博士研究生 · 统计学硕士</dd></div>
+            <div><dt>研究证据</dt><dd>AlphaForge共同作者 · AAAI 2025</dd></div>
+            <div><dt>当前实践</dt><dd>全栈量化、选股与择时实盘、AI 2.0迭代</dd></div>
+          </dl>
+        </aside>
       </div>
     </section>
 
@@ -208,6 +221,7 @@
             </svg>
             <div class="report-chart-dates"><time data-chart-date="start">首个观测日</time><time data-chart-date="end">最新观测日</time></div>
           </div>
+          <p class="performance-status" data-performance-status role="status" hidden></p>
           <div class="report-card-footer">
             <p>个人自营研究与历史记录，不募集资金，不代客理财，也不代表或保证未来表现。</p>
             <a data-cta="performance-live-report" href="https://www.suyainvestments.com/?utm_source=weilisong.com&amp;utm_medium=referral&amp;utm_campaign=personal_site">查看完整报告 <span aria-hidden="true">↗</span></a>

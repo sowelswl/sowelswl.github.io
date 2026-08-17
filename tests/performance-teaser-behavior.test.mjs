@@ -18,6 +18,7 @@ function createPage(lang) {
       },
     ]),
   )
+  elements.set("[data-performance-status]", { hidden: true, textContent: "" })
   const root = {
     dataset: {},
     querySelector(selector) {
@@ -61,6 +62,7 @@ test("live summary fills all promotional metrics and localizes the Chinese date"
   assert.match(page.elements.get('[data-performance="as-of"]').textContent, /2026/)
   assert.equal(page.elements.get('[data-performance="as-of"]').attributes.datetime, "2026-08-05")
   assert.equal(page.root.dataset.status, "live")
+  assert.equal(page.elements.get("[data-performance-status]").hidden, true)
 })
 
 test("failed live summary leaves safe placeholders and records fallback state", async () => {
@@ -72,4 +74,6 @@ test("failed live summary leaves safe placeholders and records fallback state", 
 
   assert.equal(page.elements.get('[data-performance="total-return"]').textContent, "—")
   assert.equal(page.root.dataset.status, "fallback")
+  assert.equal(page.elements.get("[data-performance-status]").hidden, false)
+  assert.match(page.elements.get("[data-performance-status]").textContent, /temporarily unavailable/i)
 })

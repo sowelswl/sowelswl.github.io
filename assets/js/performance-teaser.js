@@ -9,6 +9,7 @@
     totalExcess: root.querySelector('[data-performance="total-excess"]'),
     maxDrawdown: root.querySelector('[data-performance="max-drawdown"]'),
     asOf: root.querySelector('[data-performance="as-of"]'),
+    status: root.querySelector("[data-performance-status]"),
   }
 
   const formatDrawdown = (value) => {
@@ -43,9 +44,19 @@
         year: "numeric",
       })
       fields.asOf.setAttribute("datetime", endDate)
+      if (fields.status) {
+        fields.status.textContent = ""
+        fields.status.hidden = true
+      }
       root.dataset.status = "live"
     })
     .catch(() => {
+      if (fields.status) {
+        fields.status.textContent = locale === "zh-CN"
+          ? "实时摘要暂时无法加载，请打开完整报告查看。"
+          : "The live summary is temporarily unavailable. Please open the complete report."
+        fields.status.hidden = false
+      }
       root.dataset.status = "fallback"
     })
 
@@ -127,6 +138,12 @@
       chart.dataset.status = "live"
     })
     .catch(() => {
+      if (fields.status) {
+        fields.status.textContent = locale === "zh-CN"
+          ? "部分实时数据暂时无法加载，请打开完整报告查看。"
+          : "Some live data is temporarily unavailable. Please open the complete report."
+        fields.status.hidden = false
+      }
       chart.dataset.status = "fallback"
     })
 })()

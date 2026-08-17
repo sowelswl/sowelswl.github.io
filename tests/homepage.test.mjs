@@ -79,10 +79,11 @@ test("homepage promotes the live report without freezing performance claims", as
 test("performance teaser progressively loads the privacy-safe live summary", async () => {
   const [html, script] = await Promise.all([read("index.html"), read("assets/js/performance-teaser.js")])
 
-  assert.match(html, /src="\/assets\/js\/performance-teaser\.js"[^>]*defer/)
   for (const field of ["total-return", "total-excess", "max-drawdown", "as-of"]) {
     assert.match(html, new RegExp(`data-performance="${field}"`))
   }
+  assert.match(html, /src="\/assets\/js\/performance-teaser\.js\?v=20260817-identity"[^>]*defer/)
+  assert.match(html, /data-performance-status[^>]*role="status"[^>]*hidden/)
   assert.match(script, /https:\/\/www\.suyainvestments\.com\/api\/performance\/stats\?time_range=all/)
   assert.match(script, /returns\.formatted\.total/)
   assert.match(script, /excess_returns\.formatted\.total/)
@@ -112,7 +113,7 @@ test("homepage includes baseline accessibility, responsive, and metadata support
   assert.match(html, /<meta name="viewport" content="width=device-width, initial-scale=1">/)
   assert.match(html, /<meta name="description"/)
   assert.match(html, /<meta property="og:title"/)
-  assert.match(html, /href="\/assets\/css\/landing\.css\?v=20260817-resume"/)
+  assert.match(html, /href="\/assets\/css\/landing\.css\?v=20260817-identity"/)
   assert.match(html, /class="skip-link"/)
   assert.match(html, /aria-label="主要导航"/)
   assert.match(html, /<main id="main-content"/)

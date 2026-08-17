@@ -26,8 +26,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/landing.css?v=20260817-resume">
-  <script src="/assets/js/performance-teaser.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/landing.css?v=20260817-identity">
+  <script src="/assets/js/performance-teaser.js?v=20260817-identity" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -67,20 +67,33 @@
 
     <section id="profile" class="profile section-shell" aria-labelledby="profile-title">
       <div class="section-heading section-heading-row">
-        <div><p class="eyebrow">01 — Capabilities</p><h2 id="profile-title">Built through a complete chain,<br>not a personal label.</h2></div>
-        <p>The public record focuses on methods, systems, and evidence. Weili Song is the named author responsible for the personal research and account records shown here.</p>
+        <div><p class="eyebrow">01 — About Weili Song</p><h2 id="profile-title">Know who is responsible,<br>then inspect the work.</h2></div>
+        <p>This site is maintained by Weili Song. Identity establishes the source and responsibility; capabilities, methods, and verifiable evidence remain the main narrative.</p>
       </div>
       <div class="profile-layout profile-layout-compact">
         <div class="profile-story">
-          <p class="profile-lead">Private-fund quantitative research experience with a solo, zero-to-one build across data, factors, models, portfolio optimization, risk, execution, monitoring, and attribution.</p>
+          <p class="profile-lead">I am Weili Song, a doctoral researcher in Management Science and Engineering at Hunan University and a Master of Statistics from the Australian National University. My research focuses on quantitative finance and financial risk management, following prior quantitative strategy work at a private fund.</p>
+          <p>I am a co-author (second author) of AlphaForge, an AAAI 2025 paper on formulaic alpha-factor mining and dynamic combination.</p>
+          <p>Since 2024, I have focused on personal quantitative research and live validation, completing a solo, zero-to-one build across data, factors, models, portfolio optimization, risk, execution, monitoring, and attribution.</p>
           <p>The research combines cross-sectional stock selection with time-series and discretionary timing. Models, market regimes, price-volume structure, and risk appetite are cross-validated; timing is live in a personal proprietary account for exposure management.</p>
           <p>AI 2.0 and vibe coding support RSI-style recursive self-improvement: LLMs and AI agents help decompose requirements, generate code, test and debug, diagnose attribution, and design the next experiment. Core components are independently validated; human validation, risk governance, and deployment approval remain mandatory.</p>
         </div>
-        <dl class="brand-map" aria-label="Quantitative research capability structure">
-          <div><dt>Full-stack build</dt><dd>Solo integration of research, engineering, portfolios, and execution</dd></div>
-          <div><dt>Live validation</dt><dd>Personal-account evidence for stock selection and timing</dd></div>
-          <div><dt>Continuous iteration</dt><dd>AI 2.0 increases experiment density; humans govern risk</dd></div>
-        </dl>
+        <aside class="profile-identity" aria-label="About Weili Song">
+          <div class="profile-portrait">
+            <div class="portrait-frame">
+              <picture class="portrait-picture">
+                <source type="image/webp" srcset="/images/weilisong-portrait-640.webp 640w, /images/weilisong-portrait-960.webp 960w" sizes="(max-width: 760px) 86vw, 360px">
+                <img src="/images/weilisong-portrait-960.webp" alt="Portrait of Weili Song" width="960" height="1441" loading="lazy">
+              </picture>
+              <div class="portrait-caption"><span>Weili Song</span><span>宋伟力</span></div>
+            </div>
+          </div>
+          <dl class="brand-map" aria-label="Weili Song background and research structure">
+            <div><dt>Academic training</dt><dd>Doctoral research in management science · Master of Statistics</dd></div>
+            <div><dt>Research evidence</dt><dd>AlphaForge co-author · AAAI 2025</dd></div>
+            <div><dt>Current practice</dt><dd>Full-stack quant, live selection and timing, AI 2.0 iteration</dd></div>
+          </dl>
+        </aside>
       </div>
     </section>
 
@@ -114,6 +127,7 @@
             <svg viewBox="0 0 1000 260" preserveAspectRatio="none" role="img" aria-labelledby="performance-chart-title performance-chart-desc"><title id="performance-chart-title">Proprietary portfolio and CSI 500 cumulative performance</title><desc id="performance-chart-desc">Growth of one unit from the first to the latest observed date.</desc><g class="chart-grid" aria-hidden="true"><line x1="0" y1="20" x2="1000" y2="20"></line><line x1="0" y1="93" x2="1000" y2="93"></line><line x1="0" y1="167" x2="1000" y2="167"></line><line x1="0" y1="240" x2="1000" y2="240"></line></g><path class="chart-line chart-line-benchmark" data-chart-series="benchmark"></path><path class="chart-line chart-line-portfolio" data-chart-series="portfolio"></path></svg>
             <div class="report-chart-dates"><time data-chart-date="start">First observation</time><time data-chart-date="end">Latest observation</time></div>
           </div>
+          <p class="performance-status" data-performance-status role="status" hidden></p>
           <div class="report-card-footer"><p>Personal proprietary research and historical results. Not personalized investment advice, a solicitation, or a guarantee of future performance.</p><a data-cta="performance-live-report" href="https://www.suyainvestments.com/?utm_source=weilisong.com&amp;utm_medium=referral&amp;utm_campaign=personal_site_en">Open complete report <span aria-hidden="true">↗</span></a></div>
         </div>
         <article class="evidence-card">

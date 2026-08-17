@@ -21,7 +21,7 @@ test("Chinese homepage shares the live summary without restoring stale claims", 
   const [html, script] = await Promise.all([read("index.html"), read("assets/js/performance-teaser.js")])
 
   assert.match(html, /data-component="performance-teaser"/)
-  assert.match(html, /src="\/assets\/js\/performance-teaser\.js"[^>]*defer/)
+  assert.match(html, /src="\/assets\/js\/performance-teaser\.js\?v=20260817-identity"[^>]*defer/)
   assert.match(html, /时间加权收益/)
   assert.match(html, /中证500/)
   assert.match(html, /https:\/\/www\.suyainvestments\.com\//)

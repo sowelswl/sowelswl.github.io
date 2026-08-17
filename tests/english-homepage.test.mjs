@@ -7,7 +7,7 @@ const html = await readFile(new URL("../en/index.html", import.meta.url), "utf8"
 test("the English edition uses the same neutral capability positioning", () => {
   assert.match(html, /<html[^>]+lang="en"/)
   assert.match(html, /<h1[^>]*>Quantitative Research &amp; Live Performance Record/)
-  assert.match(html, /href="\/assets\/css\/landing\.css\?v=20260817-resume"/)
+  assert.match(html, /href="\/assets\/css\/landing\.css\?v=20260817-identity"/)
   assert.match(html, /full-stack quantitative system/i)
   assert.match(html, /live stock-selection and market-timing strategies/i)
   assert.match(html, /AI 2\.0 and RSI iteration/i)
@@ -18,6 +18,10 @@ test("the English edition uses the same neutral capability positioning", () => {
 })
 
 test("the English edition carries the same post-2024 research narrative", () => {
+  assert.match(html, /About Weili Song/)
+  assert.match(html, /doctoral researcher in Management Science and Engineering at Hunan University/i)
+  assert.match(html, /Master of Statistics from the Australian National University/i)
+  assert.match(html, /co-author \(second author\) of AlphaForge/i)
   assert.match(html, /solo, zero-to-one/i)
   assert.match(html, /AI 2\.0/i)
   assert.match(html, /vibe coding/i)
