@@ -12,19 +12,20 @@
   <rect width="1200" height="630" fill="url(#grid)"/>
   <rect width="390" height="630" fill="url(#forest)"/>
   <circle cx="88" cy="78" r="34" fill="#f3f0e8"/>
-  <text x="88" y="87" fill="#0b2520" font-family="STSong, Songti SC, serif" font-size="17" text-anchor="middle">苏牙</text>
-  <text x="62" y="188" fill="#78ad96" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">PERSONAL PROFILE</text>
-  <text x="62" y="278" fill="#fffdf8" font-family="STSong, Songti SC, serif" font-size="86">宋伟力</text>
-  <text x="62" y="326" fill="#b8cec5" font-family="Arial, sans-serif" font-size="24">WEILI SONG</text>
+  <text x="88" y="87" fill="#0b2520" font-family="STSong, Songti SC, serif" font-size="17" text-anchor="middle">研</text>
+  <text x="62" y="188" fill="#78ad96" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">SYSTEMS &amp; EVIDENCE</text>
+  <text x="62" y="278" fill="#fffdf8" font-family="STSong, Songti SC, serif" font-size="72">量化研究</text>
+  <text x="62" y="344" fill="#b8cec5" font-family="STSong, Songti SC, serif" font-size="44">实盘记录</text>
   <line x1="62" y1="428" x2="328" y2="428" stroke="#6ca38c" stroke-opacity="0.6"/>
-  <text x="62" y="473" fill="#a9beb5" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="19">湖南大学博士研究生</text>
-  <text x="62" y="507" fill="#a9beb5" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="19">3 年私募从业经验</text>
+  <text x="62" y="473" fill="#a9beb5" font-family="Arial, sans-serif" font-size="19">FULL-STACK QUANT</text>
+  <text x="62" y="507" fill="#a9beb5" font-family="Arial, sans-serif" font-size="19">LIVE VALIDATION</text>
+  <text x="62" y="541" fill="#a9beb5" font-family="Arial, sans-serif" font-size="19">AI 2.0 ITERATION</text>
 
-  <text x="468" y="110" fill="#1f7258" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">SUYA · TRADING · RESEARCH</text>
-  <text x="464" y="245" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="66">量化与主观结合</text>
-  <text x="464" y="343" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="66">的自营交易者</text>
-  <text x="468" y="421" fill="#4f5e56" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="24">判断提出问题，系统检验答案。</text>
+  <text x="468" y="110" fill="#1f7258" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">METHODS · SYSTEMS · EVIDENCE</text>
+  <text x="464" y="245" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="66">从研究到系统</text>
+  <text x="464" y="343" fill="#10201c" font-family="STSong, Songti SC, serif" font-size="66">再到可验证结果</text>
+  <text x="468" y="421" fill="#4f5e56" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="24">数据 · 因子 · 模型 · 组合 · 交易</text>
   <line x1="468" y1="528" x2="1128" y2="528" stroke="#10201c" stroke-opacity="0.2"/>
   <text x="468" y="572" fill="#10201c" font-family="Arial, sans-serif" font-size="17" font-weight="600">weilisong.com</text>
-  <text x="1128" y="572" fill="#68736d" font-family="Hiragino Sans GB, Arial, sans-serif" font-size="14" text-anchor="end">苏牙说 · dasuyatalk</text>
+  <text x="1128" y="572" fill="#68736d" font-family="Arial, sans-serif" font-size="14" text-anchor="end">RESEARCH RECORD</text>
 </svg>

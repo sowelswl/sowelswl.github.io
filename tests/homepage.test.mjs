@@ -8,14 +8,16 @@ async function read(path) {
   return readFile(new URL(path, root), "utf8")
 }
 
-test("the default homepage presents the hybrid proprietary-trader identity and conversion path", async () => {
+test("the default homepage leads with a neutral research record instead of a personal brand", async () => {
   const html = await read("index.html")
+  const hero = html.match(/<section class="hero[\s\S]*?<\/section>/)?.[0] ?? ""
 
   assert.match(html, /<html[^>]+lang="zh-CN"/)
-  assert.match(html, /<h1[^>]*>[^<]*宋伟力/)
-  assert.match(html, /量化与主观结合的自营交易者/)
-  assert.match(html, /3年私募从业经验/)
-  assert.match(html, /data-cta="hero-wechat"[^>]+href="#suya-talk"/)
+  assert.match(html, /<h1[^>]*>量化研究与实盘记录/)
+  assert.match(hero, /全栈量化系统/)
+  assert.match(hero, /选股与择时实盘/)
+  assert.match(hero, /AI 2\.0与RSI迭代/)
+  assert.doesNotMatch(hero, /苏牙品牌|宋伟力肖像|量化与主观结合的自营交易者/)
   assert.match(html, /data-cta="hero-live-report"/)
   assert.match(html, /id="profile"/)
   assert.match(html, /id="method"/)
@@ -29,6 +31,18 @@ test("the default homepage presents the hybrid proprietary-trader identity and c
   assert.ok(html.indexOf('id="timing-ledger"') < html.indexOf('id="performance"'))
   assert.ok(html.indexOf('id="performance"') < html.indexOf('id="suya-talk"'))
   assert.doesNotMatch(html, /id="ai-workflow"|id="principles"|2026 Q2|2027\s*[—-]\s*2028/)
+})
+
+test("homepage aligns the post-2024 research narrative with the resume", async () => {
+  const html = await read("index.html")
+
+  assert.match(html, /单人从零到一/)
+  assert.match(html, /AI 2\.0/)
+  assert.match(html, /Vibe Coding/)
+  assert.match(html, /RSI式递归自我改进/)
+  assert.match(html, /时序与主观择时/)
+  assert.match(html, /独立验证[、、]风险治理[、、]上线审批/)
+  assert.doesNotMatch(html, /完全自主进化|全自动闭环|重要合伙人|团队负责人/)
 })
 
 test("homepage presents the five-state timing ledger as a cohesive editorial section", async () => {
@@ -87,9 +101,8 @@ test("homepage keeps research authority and collaboration paths visible", async 
   assert.match(html, /mailto:weilisong@hnu\.edu\.cn/)
   assert.match(html, /开放交流[\s\S]*开始投研交流/)
   assert.doesNotMatch(html, /申请投研交流/)
-  assert.match(html, /了解私人投研会员/)
   assert.match(html, /href="\/connect\/research\/"/)
-  assert.match(html, /href="\/connect\/private-research\/"/)
+  assert.doesNotMatch(html, /私人投研会员|href="\/connect\/private-research\/"/)
   assert.doesNotMatch(html, /href="\/(?:publications|aboutmeCN)\//)
 })
 

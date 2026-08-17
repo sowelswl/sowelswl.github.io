@@ -8,7 +8,7 @@ async function read(path) {
   return readFile(new URL(path, root), "utf8")
 }
 
-test("repository guidance matches the current personal positioning", async () => {
+test("repository guidance matches the capability-led positioning", async () => {
   const [readme, operations, benchmarks] = await Promise.all([
     read("README.md"),
     read("CONTENT_OPERATIONS.md"),
@@ -16,13 +16,15 @@ test("repository guidance matches the current personal positioning", async () =>
   ])
 
   for (const source of [readme, operations, benchmarks]) {
-    assert.match(source, /主观交易|discretionary trading/i)
     assert.match(source, /LLM|AI/)
     assert.match(source, /量化研究|quantitative research/i)
     assert.doesNotMatch(source, /21\.90%|2\.398|Quantitative research, tested in live markets/)
   }
 
-  assert.match(operations, /个人信息|personal profile/i)
+  assert.match(readme, /全栈量化系统/)
+  assert.match(readme, /选股与择时模型/)
+  assert.match(operations, /能力：|quantitative capabilities/i)
+  assert.doesNotMatch(operations, /Visitor → personal profile/)
   assert.match(operations, /月度复盘|monthly/i)
   assert.match(operations, /季度研究|quarterly/i)
 })

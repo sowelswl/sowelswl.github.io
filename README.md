@@ -1,19 +1,19 @@
-# Weili Song · 宋伟力
+# Quantitative Research & Live Record · 量化研究与实盘记录
 
-This repository powers [weilisong.com](https://weilisong.com/), the personal website of Weili Song.
+This repository powers [weilisong.com](https://weilisong.com/), a quantitative research and live-performance archive maintained by Weili Song.
 
-宋伟力是湖南大学管理科学与工程博士研究生，拥有 3 年私募从业经验，目前独立管理自营资金，是一名量化与主观结合的 A 股自营交易者；具体方法把主观交易研究、量化研究与风险判断放在同一条链路中，AI 与 LLM 只承担研究辅助角色。
+网站以能力与可验证结果为主线：覆盖单人从零到一建设的全栈量化系统，已进入个人账户实盘的选股与择时模型，以及由 AI 2.0、Vibe Coding 和 RSI 式递归自我改进推动、由人负责验证和风险治理的策略研究迭代。
 
 ## Website purpose
 
 The site helps a visitor understand three things quickly:
 
-1. Who Weili is, how the Suya brand is organized, and how subjective research and quantitative systems work together.
-2. Where to follow Suya Talk, the primary public-content and reader-relationship channel.
-3. Where to inspect evidence, including the proprietary portfolio record, AlphaForge, and the [public timing ledger](https://github.com/sowelswl/suya-market-regime-ledger).
-4. How qualified traders and researchers can apply for lightweight research exchange.
+1. How a solo, zero-to-one full-stack quantitative system was built from research through live execution.
+2. How AI 2.0, vibe coding, and RSI-style recursive iteration increase research throughput under human validation and risk governance.
+3. Where to inspect evidence, including the personal-account portfolio record, AlphaForge, and the [public timing ledger](https://github.com/sowelswl/suya-market-regime-ledger).
+4. How qualified traders and researchers can begin a lightweight research exchange.
 
-The Chinese edition at `/` is the canonical, full homepage. The English edition at `/en/` is intentionally concise. Research-exchange and private-research information live at `/connect/research/` and `/connect/private-research/`. Historical results are evidence, not investment advice, fundraising, managed-money solicitation, or a promise of future performance.
+The Chinese edition at `/` is the canonical, full homepage. The English edition at `/en/` is intentionally concise. Research exchange remains available at `/connect/research/`; the former private-research membership page at `/connect/private-research/` is closed and excluded from search indexing. Historical results are personal-account evidence, not investment advice, fundraising, managed-money solicitation, or a promise of future performance.
 
 ## Operating model
 

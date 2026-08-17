@@ -4,16 +4,16 @@
 
 Primary audience: professional investors, research collaborators, and quantitative or AI teams.
 
-Core identity: **宋伟力是一名主观交易者与量化研究者，用系统化方法训练判断，用 AI 和 LLM 扩展研究能力。**
+Core identity: **这是量化研究与实盘档案：展示全栈系统、选股与择时实盘，以及由人负责验证和风险治理的 AI 驱动策略迭代。**
 
 The homepage should answer four questions in order:
 
-1. **个人信息：**他是谁、在哪里、做过什么、现在专注什么。
-2. **路径：**为什么从纯量化系统转向主观交易与 AI 辅助决策。
-3. **证据：**论文、竞赛、工程能力与真实运行过的量化实盘档案。
+1. **能力：**从数据、因子、模型、组合优化到交易的完整系统。
+2. **方法：**选股、择时与 AI 辅助策略迭代如何协同，并由人把关验证和风险。
+3. **证据：**论文、竞赛、工程能力与真实运行过的个人账户实盘档案。
 4. **下一步：**阅读完整实盘、查看研究，或开始一次专业交流。
 
-The site is a personal profile and research hub, not an institution pretending to manage outside capital and not a stock-picking service. Avoid short-term calls, unsourced superiority claims, copied static return figures, and language that implies guaranteed future performance.
+The site is a research and evidence archive with its maintainer identified secondarily, not an institution pretending to manage outside capital and not a stock-picking service. Avoid short-term calls, unsourced superiority claims, copied static return figures, and language that implies guaranteed future performance.
 
 ## Editorial system
 
@@ -88,7 +88,7 @@ Each channel should point back to one canonical article or the live portfolio re
 
 ## Conversion path
 
-Visitor → personal profile → research or experience → live performance report → methodology → email conversation.
+Visitor → quantitative capabilities → research or experience → live performance report → methodology → email conversation.
 
 Use one primary call to action per section. Prefer “查看实盘报告”, “阅读研究”, or “与我联系” over generic buttons such as “了解更多”. The homepage live-report links use the `personal_site` campaign so investment-site analytics can identify this referral path.
 
@@ -106,7 +106,8 @@ Do not optimize for page views alone. A smaller number of relevant readers who i
 
 ## Publishing checklist
 
-- Personal role, current focus, dates, and public contact details match the latest GitHub Profile.
+- Capability claims, current focus, dates, and public contact details match the latest resume and GitHub Profile.
+- The private-research membership remains closed, absent from homepage calls to action, and excluded from the sitemap.
 - Performance values come from the live report and are never copied into static promotional prose.
 - Every performance statement has an as-of date, benchmark, and methodology link.
 - No identity fields, credentials, database details, or internal debug information appear in page source.

@@ -19,8 +19,8 @@ function pngDimensions(buffer) {
 
 test("public pages publish complete large-card social metadata", async () => {
   const pages = [
-    ["index.html", "og-home.png", "宋伟力，量化与主观结合的自营交易者"],
-    ["en/index.html", "og-home.png", "Weili Song, hybrid quantitative and discretionary proprietary trader"],
+    ["index.html", "og-home.png", "量化研究与实盘记录"],
+    ["en/index.html", "og-home.png", "Quantitative research and live performance record"],
     ["notes/index.html", "og-home.png", "宋伟力的文章与复盘"],
     ["notes/quant-to-discretionary/index.html", "og-quant-to-discretionary.png", "为什么我从个人量化转向主观交易加 LLM"],
     ["notes/ai-workflow/index.html", "og-ai-workflow.png", "从 GPT-3 Completion 到 Agentic Coding"]
@@ -50,6 +50,6 @@ test("editable SVG sources remain paired with every generated social preview", a
   for (const name of ["og-home.svg", "og-quant-to-discretionary.svg", "og-ai-workflow.svg"]) {
     const svg = (await read(`images/social/${name}`)).toString("utf8")
     assert.match(svg, /<svg[^>]*width="1200"[^>]*height="630"/)
-    assert.match(svg, /宋伟力|Weili Song/)
+    assert.match(svg, /量化研究|AI 工作流|交易复盘/)
   }
 })

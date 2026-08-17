@@ -15,13 +15,13 @@ function section(html, id) {
   return html.slice(start, end)
 }
 
-test("both homepages distinguish the personal WeChat ID from the official account", async () => {
+test("both homepages keep the official account without personal messaging IDs", async () => {
   const [chinese, english] = await Promise.all([read("index.html"), read("en/index.html")])
 
-  assert.match(chinese, /微信：sowelswl/)
   assert.match(chinese, /公众号：苏牙说 · dasuyatalk/)
-  assert.match(english, /WeChat: sowelswl/)
   assert.match(english, /Official Account: 苏牙说 · dasuyatalk/)
+  assert.doesNotMatch(chinese, /微信：sowelswl|QQ：405113793/)
+  assert.doesNotMatch(english, /WeChat: sowelswl|QQ: 405113793/)
 })
 
 test("the contact sections explain how to find Suya Talk in WeChat", async () => {
@@ -43,12 +43,14 @@ test("all direct contact methods live in the contact section instead of the prof
   assert.doesNotMatch(chineseProfile, /weilisong@hnu\.edu\.cn|微信：|QQ：|GitHub|LinkedIn|知乎|雪球/)
   assert.doesNotMatch(englishProfile, /weilisong@hnu\.edu\.cn|WeChat:|QQ:|GitHub|LinkedIn|Zhihu|Xueqiu/)
 
-  for (const item of ["weilisong@hnu.edu.cn", "微信：sowelswl", "QQ：405113793", "GitHub", "LinkedIn", "知乎", "雪球"]) {
+  for (const item of ["weilisong@hnu.edu.cn", "GitHub", "LinkedIn"]) {
     assert.match(chineseContact, new RegExp(item))
   }
-  for (const item of ["weilisong@hnu.edu.cn", "WeChat: sowelswl", "QQ: 405113793", "GitHub", "LinkedIn", "Zhihu", "Xueqiu"]) {
+  for (const item of ["weilisong@hnu.edu.cn", "GitHub", "LinkedIn"]) {
     assert.match(englishContact, new RegExp(item))
   }
+  assert.doesNotMatch(chineseContact, /微信：sowelswl|QQ：405113793/)
+  assert.doesNotMatch(englishContact, /WeChat: sowelswl|QQ: 405113793/)
 })
 
 test("the official-account entry has dedicated responsive styling", async () => {

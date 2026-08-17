@@ -8,14 +8,15 @@ async function read(path) {
   return readFile(new URL(path, root), "utf8")
 }
 
-test("the homepage uses the settled Suya brand architecture", async () => {
+test("the homepage leads with capabilities and keeps identity secondary", async () => {
   const html = await read("index.html")
 
-  assert.match(html, /苏牙[^<。]*品牌|苏牙的主理人/)
-  assert.match(html, /苏牙说/)
-  assert.match(html, /苏牙投资/)
+  assert.match(html, /量化研究与实盘记录/)
+  assert.match(html, /全栈量化系统/)
+  assert.match(html, /选股与择时实盘/)
+  assert.match(html, /AI 2\.0与RSI迭代/)
   assert.match(html, /宋伟力/)
-  assert.match(html, /个人自营研究与历史记录/)
+  assert.doesNotMatch(html, /苏牙[^<。]*品牌|苏牙的主理人|宋伟力肖像/)
   assert.match(html, /https:\/\/github\.com\/sowelswl\/suya-market-regime-ledger/)
 })
 

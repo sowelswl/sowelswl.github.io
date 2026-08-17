@@ -1150,6 +1150,64 @@ button:focus-visible {
   width: min(100%, 430px);
 }
 
+.hero-capability-panel {
+  justify-self: end;
+  width: min(100%, 430px);
+  padding: clamp(30px, 4vw, 48px);
+  color: var(--white);
+  background: var(--forest);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 24px;
+  box-shadow: 0 30px 70px rgba(20, 40, 34, 0.14);
+}
+
+.hero-capability-panel > p {
+  margin: 0;
+  color: #78ad96;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+}
+
+.hero-capability-panel h2 {
+  margin: 16px 0 26px;
+  font-family: var(--serif);
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.hero-capability-panel ol {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  list-style: none;
+}
+
+.hero-capability-panel li {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: #d7e3de;
+}
+
+.hero-capability-panel li span {
+  color: #78ad96;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.hero-capability-panel small {
+  display: block;
+  margin-top: 24px;
+  color: #a9beb5;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
 .portrait-frame {
   position: relative;
   overflow: hidden;
@@ -2756,6 +2814,11 @@ button:focus-visible {
   .hero-personal {
     padding-top: 64px;
     padding-bottom: 82px;
+  }
+
+  .hero-capability-panel {
+    justify-self: stretch;
+    width: 100%;
   }
 
   .hero-role {

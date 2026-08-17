@@ -8,7 +8,7 @@ async function read(path) {
   return readFile(new URL(path, root), "utf8")
 }
 
-test("research exchange and private research have separate, scoped application paths", async () => {
+test("research exchange stays open while the former membership path is closed", async () => {
   const [research, membership, styles] = await Promise.all([
     read("connect/research/index.html"),
     read("connect/private-research/index.html"),
@@ -29,19 +29,10 @@ test("research exchange and private research have separate, scoped application p
   assert.match(research, /点击二维码查看原图/)
   assert.doesNotMatch(research, /mailto:/)
 
-  assert.match(membership, /苏牙私人投研会员/)
-  assert.match(membership, /候补|一个月/)
-  assert.match(membership, /交易经验/)
-  assert.match(membership, /风险认知/)
-  assert.match(membership, /先关注[\s\S]*苏牙说[\s\S]*再添加[\s\S]*个人微信/)
-  assert.match(membership, /发送[“「]私人投研会员[”」]/)
-  assert.match(membership, /src="\/images\/wechat-suyashuo-qr\.png"[^>]+alt="微信公众号苏牙说二维码"/)
-  assert.match(membership, /src="\/images\/wechat\.jpg"[^>]+alt="宋伟力个人微信二维码"/)
-  assert.equal((membership.match(/class="application-qr-link"/g) ?? []).length, 2)
-  assert.match(membership, /手机端可长按二维码识别/)
-  assert.match(membership, /点击二维码查看原图/)
-  assert.match(membership, /不代客理财|不提供个性化买卖指令/)
-  assert.doesNotMatch(membership, /mailto:/)
+  assert.match(membership, /<meta name="robots" content="noindex, nofollow">/)
+  assert.match(membership, /私人投研会员已关闭/)
+  assert.match(membership, /不再开放候补或接受申请/)
+  assert.doesNotMatch(membership, /发送[“「]私人投研会员[”」]|application-qr|wechat\.jpg|wechat-suyashuo-qr\.png/)
 
   assert.match(styles, /\.application-channel-grid/)
   assert.match(styles, /\.application-qr/)
@@ -60,9 +51,9 @@ test("application pages collect no asset, income, or holding details", async () 
   }
 })
 
-test("public application paths are included in the sitemap", async () => {
+test("only the active research exchange path remains in the sitemap", async () => {
   const sitemap = await read("sitemap.xml")
 
   assert.match(sitemap, /https:\/\/weilisong\.com\/connect\/research\//)
-  assert.match(sitemap, /https:\/\/weilisong\.com\/connect\/private-research\//)
+  assert.doesNotMatch(sitemap, /https:\/\/weilisong\.com\/connect\/private-research\//)
 })

@@ -4,16 +4,12 @@ import test from "node:test"
 
 const root = new URL("../", import.meta.url)
 
-test("both homepages use a responsive portrait with an accessible JPEG fallback", async () => {
+test("both homepages replace the personal portrait with a capability panel", async () => {
   for (const page of ["index.html", "en/index.html"]) {
     const html = await readFile(new URL(page, root), "utf8")
 
-    assert.match(html, /<picture class="portrait-picture">/)
-    assert.match(html, /weilisong-portrait-640\.webp 640w/)
-    assert.match(html, /weilisong-portrait-960\.webp 960w/)
-    assert.match(html, /sizes="\(max-width: 760px\) 86vw, 430px"/)
-    assert.match(html, /fetchpriority="high"/)
-    assert.match(html, /<img[^>]+src="\/images\/weilisong\.jpg"[^>]+alt="[^"]+"/)
+    assert.match(html, /class="hero-capability-panel"/)
+    assert.doesNotMatch(html, /portrait-picture|weilisong-portrait|\/images\/weilisong\.jpg/)
   }
 })
 
