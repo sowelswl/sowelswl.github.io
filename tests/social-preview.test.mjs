@@ -19,23 +19,23 @@ function pngDimensions(buffer) {
 
 test("public pages publish complete large-card social metadata", async () => {
   const pages = [
-    ["index.html", "og-home.png", "量化研究与实盘记录"],
-    ["en/index.html", "og-home.png", "Quantitative research and live performance record"],
-    ["notes/index.html", "og-home.png", "宋伟力的文章与复盘"],
-    ["notes/quant-to-discretionary/index.html", "og-quant-to-discretionary.png", "为什么我从个人量化转向主观交易加 LLM"],
-    ["notes/ai-workflow/index.html", "og-ai-workflow.png", "从 GPT-3 Completion 到 Agentic Coding"]
+    ["index.html", "og-home.png", "量化研究与实盘记录", "?v=20260817-resume"],
+    ["en/index.html", "og-home.png", "Quantitative research and live performance record", "?v=20260817-resume"],
+    ["notes/index.html", "og-home.png", "宋伟力的文章与复盘", ""],
+    ["notes/quant-to-discretionary/index.html", "og-quant-to-discretionary.png", "为什么我从个人量化转向主观交易加 LLM", ""],
+    ["notes/ai-workflow/index.html", "og-ai-workflow.png", "从 GPT-3 Completion 到 Agentic Coding", ""]
   ]
 
-  for (const [path, image, alt] of pages) {
+  for (const [path, image, alt, version] of pages) {
     const html = (await read(path)).toString("utf8")
-    const imageUrl = `https://weilisong.com/images/social/${image}`
+    const imageUrl = `https://weilisong.com/images/social/${image}${version}`
 
-    assert.match(html, new RegExp(`<meta property="og:image" content="${imageUrl.replaceAll(".", "\\.")}">`))
+    assert.match(html, new RegExp(`<meta property="og:image" content="${imageUrl.replaceAll(".", "\\.").replace("?", "\\?")}">`))
     assert.match(html, /<meta property="og:image:width" content="1200">/)
     assert.match(html, /<meta property="og:image:height" content="630">/)
     assert.match(html, new RegExp(`<meta property="og:image:alt" content="${alt}">`))
     assert.match(html, /<meta name="twitter:card" content="summary_large_image">/)
-    assert.match(html, new RegExp(`<meta name="twitter:image" content="${imageUrl.replaceAll(".", "\\.")}">`))
+    assert.match(html, new RegExp(`<meta name="twitter:image" content="${imageUrl.replaceAll(".", "\\.").replace("?", "\\?")}">`))
   }
 })
 

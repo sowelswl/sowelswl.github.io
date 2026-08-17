@@ -112,6 +112,7 @@ test("homepage includes baseline accessibility, responsive, and metadata support
   assert.match(html, /<meta name="viewport" content="width=device-width, initial-scale=1">/)
   assert.match(html, /<meta name="description"/)
   assert.match(html, /<meta property="og:title"/)
+  assert.match(html, /href="\/assets\/css\/landing\.css\?v=20260817-resume"/)
   assert.match(html, /class="skip-link"/)
   assert.match(html, /aria-label="主要导航"/)
   assert.match(html, /<main id="main-content"/)

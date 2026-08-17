@@ -7,6 +7,7 @@ const html = await readFile(new URL("../en/index.html", import.meta.url), "utf8"
 test("the English edition uses the same neutral capability positioning", () => {
   assert.match(html, /<html[^>]+lang="en"/)
   assert.match(html, /<h1[^>]*>Quantitative Research &amp; Live Performance Record/)
+  assert.match(html, /href="\/assets\/css\/landing\.css\?v=20260817-resume"/)
   assert.match(html, /full-stack quantitative system/i)
   assert.match(html, /live stock-selection and market-timing strategies/i)
   assert.match(html, /AI 2\.0 and RSI iteration/i)
