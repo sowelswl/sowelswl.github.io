@@ -18,11 +18,11 @@ title: Publications
 
 ## Journal Paper
 
-- [Graph Representation Learning Augmented Model Manipulation on Federated Fine-Tuning of LLMs](https://arxiv.org/abs/2605.07961)<br>**Hanlin Cai**, Kai Li, Houtianfu Wang, Haofan Dong, Yichen Li, Falko Dressler, Ozgur B. Akan<br>Submitted to an IEEE Transaction Journal, 2026.<br>
+- [Graph Representation Learning Augmented Model Manipulation on Federated Fine-Tuning of LLMs](https://arxiv.org/abs/2605.07961)<br>**Hanlin Cai**, Kai Li, Houtianfu Wang, Haofan Dong, Yichen Li, Falko Dressler, Ozgur B. Akan<br>**IEEE Transactions on Network Science and Engineering**, 2026.<br>
 
   
 
-- [Edge-Side Fingerprints of Service Tiering and Quota Throttling in Starlink](https://arxiv.org/abs/2603.08990)<br>Houtianfu Wang, **Hanlin Cai~~**, Haofan Dong, Ozgur B. Akan<br>Submitted to IEEE Networking Letter, 2026.<br>
+- [Edge-Side Fingerprints of Service Tiering and Quota Throttling in Starlink](https://arxiv.org/abs/2603.08990)<br>Houtianfu Wang, **Hanlin Cai~~**, Haofan Dong, Ozgur B. Akan<br>**IEEE Networking Letter**, 2026.<br>
 
   
   
@@ -30,11 +30,7 @@ title: Publications
 
   
   
-- Staying Online Costs More Energy Than Sending Bits in a Starlink Mini Terminal<br>Houtianfu Wang, Shaojie Zhang, **Hanlin Cai**, Haofan Dong, Ozgur B. Akan<br>Submitted to an IEEE Transaction Journal, 2026.<br>
-
-  
-  
-- [Rain Rate Estimation Bounds and Weather-Adaptive Pilot Allocation for LEO Satellite ISAC](https://arxiv.org/abs/2604.10830)<br>Haofan Dong, Houtianfu Wang, **Hanlin Cai**, O. Tansel Baydas, Ozgur B. Akan<br>Submitted to an IEEE Transaction Journal, 2026.<br>
+- [Rain Rate Estimation Bounds and Weather-Adaptive Pilot Allocation for LEO Satellite ISAC](https://arxiv.org/abs/2604.10830)<br>Haofan Dong, Houtianfu Wang, **Hanlin Cai**, O. Tansel Baydas, Ozgur B. Akan<br>**IEEE Transactions on Wireless Communications**, 2026.<br>
 
   
   
@@ -42,7 +38,7 @@ title: Publications
 
   
   
-- Measurement-Grounded Deadline Feasibility over LEO RF and Optical Access Links<br>Houtianfu Wang, Osman. T. Baydas, **Hanlin Cai**, Haofan Dong, Ozgur B. Akan<br>Submitted to an IEEE Transaction Journal, 2026.<br>
+- Measurement-Grounded Deadline Feasibility over LEO RF and Optical Access Links<br>Houtianfu Wang, Osman. T. Baydas, **Hanlin Cai**, Haofan Dong, Ozgur B. Akan<br>**IEEE Transactions on Aerospace and Electronic Systems**, 2026.<br>
 
   
   
@@ -50,7 +46,19 @@ title: Publications
 
   
   
-- [Physically-Induced Atmospheric Adversarial Perturbations: Enhancing Transferability and Robustness in Remote Sensing Image Classification](https://arxiv.org/abs/2604.14643)<br>Weiwei Zhuang, Wangze Xie, Qi Zhang, Xia Du, Zihan Lin, Zheng Lin, **Hanlin Cai**, Jizhe Zhou, Zihan Fang, Chi-man Pun, Wei Ni, Jun Luo<br>Submitted to an IEEE Transaction Journal, 2026.<br>
+- Fence-and-Flash: Sequential ISAC for Probabilistic LEO Debris Characterization over Inter-Satellite Links<br>Houtianfu Wang, O. Tansel Baydas, **Hanlin Cai**, Haofan Dong, Ozgur B. Akan<br>Submitted to an IEEE Transaction Journal, 2026.<br>
+
+  
+  
+- Active–Passive Spectrum Coexistence via Power Textures for Astronomical-Signal Identifiability<br>Haofan Dong, Houtianfu Wang, **Hanlin Cai**, O. Tansel Baydas, Ozgur B. Akan<br>Submitted to an IEEE Transaction Journal, 2026.<br>
+
+  
+  
+- Staying Online Costs More Energy Than Sending Bits in a Starlink Mini Terminal<br>Houtianfu Wang, Shaojie Zhang, **Hanlin Cai**, Haofan Dong, Ozgur B. Akan<br>Submitted to an IEEE Transaction Journal, 2026.<br>
+
+  
+  
+- [Physically-Induced Atmospheric Adversarial Perturbations: Enhancing Transferability and Robustness in Remote Sensing Image Classification](https://arxiv.org/abs/2604.14643)<br>Weiwei Zhuang, Wangze Xie, Qi Zhang, Xia Du, Zihan Lin, Zheng Lin, **Hanlin Cai**, Jizhe Zhou, Zihan Fang, Chi-man Pun, Wei Ni, Jun Luo<br>**IEEE Transactions on Geoscience and Remote Sensing**, 2026.<br>
 
   
   
@@ -114,6 +122,8 @@ title: Publications
 ---
 
 ## Degree Thesis
+
+- Towards Resilient and Trustworthy Internet of Agents<br>PhD First Year Report, 2026.
 
 - [Semantic Communication for the Internet of Everything: From Molecular to Space Networks]({{ site.url }}/mypaper/thesis/MPhil_thesis.pdf)<br>**Hanlin Cai** (Advisor: Dr. Ozgur B. Akan).<br>Examiners: [Dr. Sasitharan Balasubramaniam](https://computing.unl.edu/person/sasitharan-balasubramaniam/), [Dr. Qixiang Cheng](https://www.eng.cam.ac.uk/profiles/qc223).<br>Thesis awarded **High Distinction**.<br>
 
