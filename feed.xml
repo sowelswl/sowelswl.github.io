@@ -5,14 +5,15 @@
   <id>https://weilisong.com/feed.xml</id>
   <link href="https://weilisong.com/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://weilisong.com/notes/" rel="alternate" type="text/html"/>
-  <updated>2026-08-06T00:00:00+08:00</updated>
+  <updated>2026-10-11T00:00:00+08:00</updated>
   <author>
     <name>宋伟力</name>
     <uri>https://weilisong.com/</uri>
   </author>
   <rights>© 2026 宋伟力</rights>
 
-  <entry>
+  <entry><title>我和 AI 搭了一个对话式个人发布系统</title><id>https://weilisong.com/notes/ai-social-media-amplifier/</id><link href="https://weilisong.com/notes/ai-social-media-amplifier/" rel="alternate" type="text/html"/><published>2026-10-11T00:00:00+08:00</published><updated>2026-10-11T00:00:00+08:00</updated><author><name>Weili Song</name></author><category term="AI 实践"/><summary>从这次真实对话出发，记录个人输出系统怎样整理观点、适配五个平台，准备中文与英文内容，并保留一次总确认。</summary></entry>
+<entry>
     <title>为什么我从个人量化转向主观交易 + LLM</title>
     <id>https://weilisong.com/notes/quant-to-discretionary/</id>
     <link href="https://weilisong.com/notes/quant-to-discretionary/" rel="alternate" type="text/html"/>
